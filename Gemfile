@@ -1,3 +1,2 @@
-source 'http://rubygems.org'
-gem 'jekyll', '2.5.3'
-gem 'rouge'
+source 'https://rubygems.org'
+gem 'github-pages', '104', group: :jekyll_plugins
