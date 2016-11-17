@@ -1,0 +1,8 @@
+{% assign path = page.url | split:"/" %}
+{% if page.url contains ".html" %}
+    {% assign middlePath = path[-2] %}
+    {% assign topPath = path[-3] %}
+{% else %}
+    {% assign middlePath = path[-1] %}
+    {% assign topPath = path[-2] %}
+{% endif %}

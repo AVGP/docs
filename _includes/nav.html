@@ -14,11 +14,14 @@
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-        {% assign path = page.url | split:"/" %}
+        {% include path-fragments.html %}
         {% assign sortedPages = site.pages | sort:'topRank' %}
         {% for p in sortedPages %}
           {% if p.topRank %}
-            <li {% if p.url contains path[-3] %}class="active"{% endif %}>
+            {% comment %}
+                `topPath` comes from `_includes/path-fragments.html`
+            {% endcomment %}
+            <li {% if p.url contains topPath %}class="active"{% endif %}>
               <a href="{{site.path}}{{p.linkTo}}">{{p.linkName}}</a>
             </li>
           {% endif %}
