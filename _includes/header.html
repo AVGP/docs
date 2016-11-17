@@ -1,0 +1,32 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="{{site.favicon}}" rel="shortcut icon" type="image/png">
+
+  {% if page.title != nil %}
+    <title>{{page.title}}</title>
+  {% else %}
+    <title>{{site.title}}</title>
+  {% endif %}
+
+  <meta name="description" content="{{page.meta}}">
+
+  <link href="{{site.path}}/assets/css/bootstrap-modified.min.css" rel="stylesheet">
+  <link href="{{site.path}}/assets/css/docs.min.css" rel="stylesheet">
+  <link href="{{site.path}}/assets/css/style.css" rel="stylesheet">
+
+  <style>
+
+    /*
+      It is important to have this here, as the site path would'nt be injected
+      in a CSS file.
+    */
+    .bs-docs-masthead {
+      background-image: url({{site.path}}/assets/images/front-background.jpg);
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>

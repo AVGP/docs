@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://about.archilogic.com/wp-content/uploads/favicon-96x96.png" rel="shortcut icon" type="image/png">
+
+  
+    <title>The Box - Archilogic 3D Editor Documentation</title>
+  
+
+  <meta name="description" content="Learn all about the box element and its uses in the Archilogic 3D Editor. Check out our documentation.">
+
+  <link href="/assets/css/bootstrap-modified.min.css" rel="stylesheet">
+  <link href="/assets/css/docs.min.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <style>
+
+    /*
+      It is important to have this here, as the site path would'nt be injected
+      in a CSS file.
+    */
+    .bs-docs-masthead {
+      background-image: url(/assets/images/front-background.jpg);
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBHVT8"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBHVT8');</script>
+<!-- End Google Tag Manager -->
+
+  <header class="navbar navbar-static-top bs-docs-nav" id="top">
+  <div class="container">
+    <div class="navbar-header" role="banner">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand"><img id="al-logo" src="/assets/images/gradient_logo_2_300px-height.png"></span>
+      <a class="navbar-brand" href="/index.html">
+        
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li >
+              <a href="/en/tutorials/introduction/index.html">Tutorials</a>
+            </li>
+          
+        
+          
+            <li class="active">
+              <a href="/en/3d-editor/introduction/index.html">3D Editor</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/platform/introduction/index.html">Platform</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/api/introduction/index.html">API</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/sdk/introduction/index.html">SDK</a>
+            </li>
+          
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      
+        <li>
+          <a class="gtm-about" href="http://about.archilogic.com" target="_blank">About</a>
+        </li>
+      
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Header
+  =========================================== -->
+  
+
+    <div class="bs-docs-header">
+      <div class="container">
+      </div>
+    </div>
+  
+
+  <div class="container bs-docs-container">
+    <div class="row">
+      <div class="col-md-3">
+  <div class="list-group">
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/introduction/index.html class="list-group-item  ">
+          <strong>Introduction</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/navigation/index.html class="list-group-item  ">
+          <strong>Navigation</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/vr/index.html class="list-group-item  ">
+          <strong>VR</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/basic-editing/index.html class="list-group-item  ">
+          <strong>Basic Editing</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/sharing/index.html class="list-group-item  ">
+          <strong>Sharing</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/materials/index.html class="list-group-item  ">
+          <strong>Materials</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/Architecture/index.html class="list-group-item  ">
+          <strong>Architecture</strong>
+        </a>
+        
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/wall.html class="list-group-item indented-list-group-item  ">
+                Walls, Doors and Windows
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/floor.html class="list-group-item indented-list-group-item  ">
+                Floors, Polyfloors and Ceilings
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/box.html class="list-group-item indented-list-group-item active ">
+                Boxes and Polyboxes
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/stairs.html class="list-group-item indented-list-group-item  ">
+                Stairs
+              </a>
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/kitchen.html class="list-group-item indented-list-group-item  ">
+                Kitchen
+              </a>
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/curtain.html class="list-group-item indented-list-group-item  ">
+                Curtain
+              </a>
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/closet.html class="list-group-item indented-list-group-item  ">
+                Closet
+              </a>
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/railing.html class="list-group-item indented-list-group-item  ">
+                Railing
+              </a>
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/tag.html class="list-group-item indented-list-group-item  ">
+                Tag
+              </a>
+            
+          
+        
+      
+    
+      
+        <a href=/en/3d-editor/custom-3d-data/index.html class="list-group-item  ">
+          <strong>Import</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/export/index.html class="list-group-item  ">
+          <strong>Export</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/lighting/index.html class="list-group-item  ">
+          <strong>Realistic Lighting</strong>
+        </a>
+        
+      
+    
+  </div>
+</div>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<div class="col-md-9" role="main">
+  <p> 3D Editor / Architecture</p>
+  <h1 id="boxes">Boxes</h1>
+
+<p>The box can be used as a temporary placeholder object in a scene to check if a certain furniture piece that may not be in our library fits into a space or not. It can also be used to model primitive objects.
+The box consists of two different parts, the top and the sides, both of which can be materialized separately.</p>
+
+<p><img src="/assets/images/Architecture-Box-Object.jpg" alt="Box Object" class="img-responsive" /></p>
+
+<p>The dimensions of the box can be changed by either using the handles or by entering the exact values into the respective fields of the context menu. All values are in meters.</p>
+
+<p><img src="/assets/images/Architecture-Box-Menu.jpg" alt="Box Menu" class="img-responsive" /></p>
+
+<h1 id="polyboxes">Polyboxes</h1>
+
+<p>The polybox is handles the similar to the polyfloor. It can also be used as either a temporary placeholder object or used to model primitive objects.
+Like the polyfloor additional handles can be added by clicking on the desired position on the box. Unnecessary handles can be removed by clicking on them again.
+The height of the box can be adjusted by entering a value into the text field in the context menu.
+The box consists of two different parts, the top and the sides, both of which can be materialized separately.</p>
+
+<p><img src="/assets/images/Architecture-Polybox-Object.jpg" alt="Polybox Object" class="img-responsive" /></p>
+
+</div>
+
+    </div>
+  </div>
+
+  <footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+    <p>
+      Based on the documentation template by <a href="http://getbootstrap.com">Bootstrap team,</a>
+      generated with a fork of <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc.</a>
+    </p>
+
+    <ul class="bs-docs-footer-links muted">
+    
+    </ul>
+  </div>
+</footer>
+
+
+  
+
+
+
+
+
+
+</body>
+</html>

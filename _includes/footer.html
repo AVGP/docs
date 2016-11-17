@@ -1,0 +1,15 @@
+<footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+    <p>
+      Based on the documentation template by <a href="http://getbootstrap.com">Bootstrap team,</a>
+      generated with a fork of <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc.</a>
+    </p>
+
+    <ul class="bs-docs-footer-links muted">
+    {% for l in site.footerLinks %}
+      <li>&middot;</li>
+      <li><a href="{{l.url}}">{{l.title}}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+</footer>

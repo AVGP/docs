@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://about.archilogic.com/wp-content/uploads/favicon-96x96.png" rel="shortcut icon" type="image/png">
+
+  
+    <title>How To Use The Archilogic 3D Editor  - Archilogic Doc</title>
+  
+
+  <meta name="description" content="Need to learn how to use the Archilogic 3D editor? You can read up on it in our documentation.">
+
+  <link href="/assets/css/bootstrap-modified.min.css" rel="stylesheet">
+  <link href="/assets/css/docs.min.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <style>
+
+    /*
+      It is important to have this here, as the site path would'nt be injected
+      in a CSS file.
+    */
+    .bs-docs-masthead {
+      background-image: url(/assets/images/front-background.jpg);
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBHVT8"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBHVT8');</script>
+<!-- End Google Tag Manager -->
+
+  <header class="navbar navbar-static-top bs-docs-nav" id="top">
+  <div class="container">
+    <div class="navbar-header" role="banner">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand"><img id="al-logo" src="/assets/images/gradient_logo_2_300px-height.png"></span>
+      <a class="navbar-brand" href="/index.html">
+        
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li >
+              <a href="/en/tutorials/introduction/index.html">Tutorials</a>
+            </li>
+          
+        
+          
+            <li class="active">
+              <a href="/en/3d-editor/introduction/index.html">3D Editor</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/platform/introduction/index.html">Platform</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/api/introduction/index.html">API</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/sdk/introduction/index.html">SDK</a>
+            </li>
+          
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      
+        <li>
+          <a class="gtm-about" href="http://about.archilogic.com" target="_blank">About</a>
+        </li>
+      
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Header
+  =========================================== -->
+  
+
+    <div class="bs-docs-header">
+      <div class="container">
+      </div>
+    </div>
+  
+
+  <div class="container bs-docs-container">
+    <div class="row">
+      <div class="col-md-3">
+  <div class="list-group">
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/introduction/index.html class="list-group-item  ">
+          <strong>Introduction</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/navigation/index.html class="list-group-item  ">
+          <strong>Navigation</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/vr/index.html class="list-group-item  ">
+          <strong>VR</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/basic-editing/index.html class="list-group-item  ">
+          <strong>Basic Editing</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/sharing/index.html class="list-group-item  ">
+          <strong>Sharing</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/materials/index.html class="list-group-item  ">
+          <strong>Materials</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/Architecture/index.html class="list-group-item active ">
+          <strong>Architecture</strong>
+        </a>
+        
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/wall.html class="list-group-item indented-list-group-item  ">
+                Walls, Doors and Windows
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/floor.html class="list-group-item indented-list-group-item  ">
+                Floors, Polyfloors and Ceilings
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/box.html class="list-group-item indented-list-group-item  ">
+                Boxes and Polyboxes
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/stairs.html class="list-group-item indented-list-group-item  ">
+                Stairs
+              </a>
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/kitchen.html class="list-group-item indented-list-group-item  ">
+                Kitchen
+              </a>
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/curtain.html class="list-group-item indented-list-group-item  ">
+                Curtain
+              </a>
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/closet.html class="list-group-item indented-list-group-item  ">
+                Closet
+              </a>
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/railing.html class="list-group-item indented-list-group-item  ">
+                Railing
+              </a>
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/tag.html class="list-group-item indented-list-group-item  ">
+                Tag
+              </a>
+            
+          
+        
+      
+    
+      
+        <a href=/en/3d-editor/custom-3d-data/index.html class="list-group-item  ">
+          <strong>Import</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/export/index.html class="list-group-item  ">
+          <strong>Export</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/lighting/index.html class="list-group-item  ">
+          <strong>Realistic Lighting</strong>
+        </a>
+        
+      
+    
+  </div>
+</div>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<div class="col-md-9" role="main">
+  <p> 3D Editor / Architecture</p>
+  <h1 id="architecture">Architecture</h1>
+
+<p><strong>Architecture features are available with an <a href="/en/platform/settings/subscription.html">Archilogic Professional subscription</a>.</strong></p>
+
+<p>The topics in the architecture category cover the different architecture features.</p>
+
+<p>In general the architecture building blocks handle very similar to our furniture pieces with the exception, that they usually have a lot more options to play with.
+The architecture menu does not only let you place walls, windows and doors, but also allows you to customize the materialization of all architecture objects or use tags to give the viewer additional information about a space.</p>
+
+<p><strong>Important: Existing architecture objects are only selectable if realistic lighting is switched off</strong></p>
+
+<h2 id="architecture-objects">Architecture Objects</h2>
+<p>Every object within the Archilogic architecture menu is parametric and therefore fully customizable.
+This is a list of every architecture object.</p>
+
+<p>Walls
+<a href="wall.html"><img src="/assets/images/architecture-icon-wall.png" alt="Wall Icon" class="img-responsive" /></a></p>
+
+<p>Door
+(The door object only works together with a wall object)
+<a href="wall.html"><img src="/assets/images/architecture-icon-door.png" alt="Door Icon" class="img-responsive" /></a></p>
+
+<p>Window
+(The window object only works together with a wall object)
+<a href="wall.html"><img src="/assets/images/architecture-icon-window.png" alt="Window Icon" class="img-responsive" /></a></p>
+
+<p>Floor
+<a href="floor.html"><img src="/assets/images/architecture-icon-floor.png" alt="Floor Icon" class="img-responsive" /></a></p>
+
+<p>Polyfloor
+<a href="floor.html"><img src="/assets/images/architecture-icon-polyfloor.png" alt="Polyfloor Icon" class="img-responsive" /></a></p>
+
+<p>Box
+<a href="box.html"><img src="/assets/images/architecture-icon-box.png" alt="Box Icon" class="img-responsive" /></a></p>
+
+<p>Polybox
+<a href="box.html"><img src="/assets/images/architecture-icon-polybox.png" alt="Polybox Icon" class="img-responsive" /></a></p>
+
+<p>Stairs
+<a href="stairs.html"><img src="https://docs.google.com/drawings/d/14dNRn8XPJuFvpURhIMK49ig3Zb61ApkfCUXGuatD31M/pub?w=431&amp;h=377" alt="Stairs Icon" class="img-responsive" /></a></p>
+
+<p>Kitchen
+<a href="kitchen.html"><img src="/assets/images/architecture-icon-kitchen.png" alt="Kitchen Icon" class="img-responsive" /></a></p>
+
+<p>Closet
+<a href="closet.html"><img src="/assets/images/architecture-icon-closet.png" alt="Closet Icon" class="img-responsive" /></a></p>
+
+<p>Curtain
+<a href="curtain.html"><img src="/assets/images/architecture-icon-curtain.png" alt="Curtain Icon" class="img-responsive" /></a></p>
+
+<p>Railing
+<a href="railing.html"><img src="/assets/images/architecture-icon-railing.png" alt="Railing Icon" class="img-responsive" /></a></p>
+
+<p>Tag
+<a href="tag.html"><img src="/assets/images/architecture-icon-tag.png" alt="Tag Icon" class="img-responsive" /></a></p>
+
+</div>
+
+    </div>
+  </div>
+
+  <footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+    <p>
+      Based on the documentation template by <a href="http://getbootstrap.com">Bootstrap team,</a>
+      generated with a fork of <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc.</a>
+    </p>
+
+    <ul class="bs-docs-footer-links muted">
+    
+    </ul>
+  </div>
+</footer>
+
+
+  
+
+
+
+
+
+
+</body>
+</html>

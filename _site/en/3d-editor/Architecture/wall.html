@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://about.archilogic.com/wp-content/uploads/favicon-96x96.png" rel="shortcut icon" type="image/png">
+
+  
+    <title>The Wall - Archilogic 3D Editor Documentation</title>
+  
+
+  <meta name="description" content="Learn all about the wall element and how to use it in the Archilogic 3D Editor. Check out our documentation.">
+
+  <link href="/assets/css/bootstrap-modified.min.css" rel="stylesheet">
+  <link href="/assets/css/docs.min.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <style>
+
+    /*
+      It is important to have this here, as the site path would'nt be injected
+      in a CSS file.
+    */
+    .bs-docs-masthead {
+      background-image: url(/assets/images/front-background.jpg);
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBHVT8"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBHVT8');</script>
+<!-- End Google Tag Manager -->
+
+  <header class="navbar navbar-static-top bs-docs-nav" id="top">
+  <div class="container">
+    <div class="navbar-header" role="banner">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand"><img id="al-logo" src="/assets/images/gradient_logo_2_300px-height.png"></span>
+      <a class="navbar-brand" href="/index.html">
+        
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li >
+              <a href="/en/tutorials/introduction/index.html">Tutorials</a>
+            </li>
+          
+        
+          
+            <li class="active">
+              <a href="/en/3d-editor/introduction/index.html">3D Editor</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/platform/introduction/index.html">Platform</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/api/introduction/index.html">API</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/sdk/introduction/index.html">SDK</a>
+            </li>
+          
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      
+        <li>
+          <a class="gtm-about" href="http://about.archilogic.com" target="_blank">About</a>
+        </li>
+      
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Header
+  =========================================== -->
+  
+
+    <div class="bs-docs-header">
+      <div class="container">
+      </div>
+    </div>
+  
+
+  <div class="container bs-docs-container">
+    <div class="row">
+      <div class="col-md-3">
+  <div class="list-group">
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/introduction/index.html class="list-group-item  ">
+          <strong>Introduction</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/navigation/index.html class="list-group-item  ">
+          <strong>Navigation</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/vr/index.html class="list-group-item  ">
+          <strong>VR</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/basic-editing/index.html class="list-group-item  ">
+          <strong>Basic Editing</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/sharing/index.html class="list-group-item  ">
+          <strong>Sharing</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/materials/index.html class="list-group-item  ">
+          <strong>Materials</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/Architecture/index.html class="list-group-item  ">
+          <strong>Architecture</strong>
+        </a>
+        
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/wall.html class="list-group-item indented-list-group-item active ">
+                Walls, Doors and Windows
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/floor.html class="list-group-item indented-list-group-item  ">
+                Floors, Polyfloors and Ceilings
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/box.html class="list-group-item indented-list-group-item  ">
+                Boxes and Polyboxes
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/stairs.html class="list-group-item indented-list-group-item  ">
+                Stairs
+              </a>
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/kitchen.html class="list-group-item indented-list-group-item  ">
+                Kitchen
+              </a>
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/curtain.html class="list-group-item indented-list-group-item  ">
+                Curtain
+              </a>
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/closet.html class="list-group-item indented-list-group-item  ">
+                Closet
+              </a>
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/railing.html class="list-group-item indented-list-group-item  ">
+                Railing
+              </a>
+            
+          
+            
+              <a href=/en/3d-editor/Architecture/tag.html class="list-group-item indented-list-group-item  ">
+                Tag
+              </a>
+            
+          
+        
+      
+    
+      
+        <a href=/en/3d-editor/custom-3d-data/index.html class="list-group-item  ">
+          <strong>Import</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/export/index.html class="list-group-item  ">
+          <strong>Export</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/lighting/index.html class="list-group-item  ">
+          <strong>Realistic Lighting</strong>
+        </a>
+        
+      
+    
+  </div>
+</div>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<div class="col-md-9" role="main">
+  <p> 3D Editor / Architecture</p>
+  <h1 id="walls">Walls</h1>
+
+<p>Similar to a furniture object the wall object must also be dragged and dropped into the scene before it can be used.
+It also has the same handles as a furniture piece.
+The handle with the four triangles is used to move the wall object around.
+The handle with the two bent arrows is used to rotate the object but also to increase or decrease the length of the wall.
+Above the second handle you can find the current length of the wall.</p>
+
+<p><img src="/assets/images/Architecture-Wall-Object.jpg" alt="Wall Object" class="img-responsive" /></p>
+
+<p>The wall object consists of three different parts. A front face, a back face and a baseboard.
+Each of these parts can be materialized or colored separately.</p>
+
+<p>The context menu on the right allows the user to further customize the wall.</p>
+
+<p><img src="/assets/images/Architecture-Wall-Menu.jpg" alt="Wall Context Menu" class="img-responsive" /></p>
+
+<ul>
+  <li>
+    <p>The standard value for the vertical position is 0 but it can be changed at will.</p>
+  </li>
+  <li>
+    <p>The height determines how high a wall is. The standard value for all walls is 2.4 meters.</p>
+  </li>
+  <li>
+    <p>The standard value for the width is 0.15 meters. It can be increased to a maximum of 1 meter.</p>
+  </li>
+  <li>
+    <p>The standard value for the height of the baseboards is 0. With a height of 0 they do not show up on the wall.
+This value can be increased to a maximum of 2 meters. The baseboards can also be used to fake walls with two different colors.</p>
+  </li>
+  <li>
+    <p>Changing the values in baseboard on front / on back from 1 to 0 determines whether these sides of the walls have baseboards or not.</p>
+  </li>
+</ul>
+
+<p>By activating the <strong>Lock</strong> checkbox the wall object becomes locked and can’t be selected anymore.
+To revert this or editing a locked object you first have to open the architecture menu and then activate the <strong>Edit locked objects</strong> checkbox.</p>
+
+<h1 id="doors">Doors</h1>
+<p><strong>Doors do not work as separate objects and have to be dragged on to an already existing wall.</strong></p>
+
+<p>The handle for the door objects work similar than those of the wall objects. The handle with the four triangles is used to move the door around within the constraints of the wall. The handle with the two triangles is used to extend the size of the door to a maximum of 2 meters.</p>
+
+<p><img src="/assets/images/Architecture-Door-Object.jpg" alt="Door Object" class="img-responsive" /></p>
+
+<p>The context menu on the right allows the user to further customize the wall.</p>
+
+<p><img src="/assets/images/Architecture-Door-Menu.jpg" alt="Door Context Menu" class="img-responsive" /></p>
+
+<ul>
+  <li>
+    <p>The <strong>Height</strong> can be increased to a maximum of 4 meters, while the standard value is 2 meters.</p>
+  </li>
+  <li>
+    <p>Changing the value of the <strong>Opening Angle</strong> determines how far the door should be opened. Setting the value to 0 closes the door.</p>
+  </li>
+  <li>
+    <p>The <strong>Door Type</strong> dropdown menu provides a number of different door types such as double swing doors or sliding doors.</p>
+  </li>
+  <li>
+    <p>The <strong>Handle Type</strong> dropdown menu provides different door handles.</p>
+  </li>
+  <li>
+    <p>The <strong>Hinge</strong> switch determines whether the hinges of the door are on the right or on the left side.</p>
+  </li>
+  <li>
+    <p>The <strong>Position</strong> switch determines in which direction the door opens.</p>
+  </li>
+  <li>
+    <p><strong>Frame length</strong> influences on how thick the door frame is going to be.</p>
+  </li>
+  <li>
+    <p><strong>Frame Offset</strong> controls how much the door frame sticks out of the wall.</p>
+  </li>
+  <li>
+    <p><strong>Fix Leaf Ratio</strong> influences the ratio between the regular door leaf and the fixed door leaf. It only has an effect if a door type with a fixed leaf is selected.</p>
+  </li>
+</ul>
+
+<p>By activating the <strong>Lock</strong> checkbox the door object becomes locked and can’t be selected anymore.
+To revert this or editing a locked object you first have to open the architecture menu and then activate the <strong>Edit locked objects</strong> checkbox.</p>
+
+<h1 id="windows">Windows</h1>
+<p><strong>Windows do not work as separate objects and have to be dragged on to an already existing wall.</strong></p>
+
+<p>The handle for the window objects work similar than those of the wall objects. The handle with the four triangles is used to move the window around within the constraints of the wall. The handle with the two triangles is used to extend the size of the window.</p>
+
+<p><img src="/assets/images/Architecture-Window-Object.jpg" alt="Window Object" class="img-responsive" /></p>
+
+<p>The context menu on the right allows the user to further customize the window.</p>
+
+<p><img src="/assets/images/Architecture-Window-Menu.jpg" alt="Window Context Menu" class="img-responsive" /></p>
+
+<ul>
+  <li>
+    <p>The <strong>Vertical Position</strong> determines on which height the window starts. The standard value is 0.8 meters, which means that the window starts 0.8 meters above ground.</p>
+  </li>
+  <li>
+    <p><strong>Height</strong> determines the vertical dilation of the window.</p>
+  </li>
+  <li>
+    <p><strong>Border Length</strong> influences the inward thickness of the window frame.</p>
+  </li>
+  <li>
+    <p><strong>Border Width</strong> influences the outward thickness of the window frame</p>
+  </li>
+</ul>
+
+<p>The Window Ratio Menu allows for the creation of more complex and segmented windows.</p>
+
+<p><img src="/assets/images/Architecture-Window-Ratio.jpg" alt="Window Ratio Menu" class="img-responsive" /></p>
+
+<p>The <strong>Row</strong> field controls how many rows the window has. Every number in the field stands for a row. If the first number is a 1 and the second a 2 then the second row is twice as high as the first row. Each number has to be separated by a colon.</p>
+
+<p>The <strong>Column Field</strong> field controls how many columns each row has. Every number in the field stands for a column. If the first number is a 1 and the second a 2 then the second column is twice as wide as the first column. Each number has to be separated by a colon.</p>
+
+</div>
+
+    </div>
+  </div>
+
+  <footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+    <p>
+      Based on the documentation template by <a href="http://getbootstrap.com">Bootstrap team,</a>
+      generated with a fork of <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc.</a>
+    </p>
+
+    <ul class="bs-docs-footer-links muted">
+    
+    </ul>
+  </div>
+</footer>
+
+
+  
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://about.archilogic.com/wp-content/uploads/favicon-96x96.png" rel="shortcut icon" type="image/png">
+
+  
+    <title>Archilogic API Documentation: Making 3D models fun!</title>
+  
+
+  <meta name="description" content="The Archilogic API documentation is available here to help you get the most out of your Archilogic subscription.">
+
+  <link href="/assets/css/bootstrap-modified.min.css" rel="stylesheet">
+  <link href="/assets/css/docs.min.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <style>
+
+    /*
+      It is important to have this here, as the site path would'nt be injected
+      in a CSS file.
+    */
+    .bs-docs-masthead {
+      background-image: url(/assets/images/front-background.jpg);
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBHVT8"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBHVT8');</script>
+<!-- End Google Tag Manager -->
+
+  <header class="navbar navbar-static-top bs-docs-nav" id="top">
+  <div class="container">
+    <div class="navbar-header" role="banner">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand"><img id="al-logo" src="/assets/images/gradient_logo_2_300px-height.png"></span>
+      <a class="navbar-brand" href="/index.html">
+        
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li >
+              <a href="/en/tutorials/introduction/index.html">Tutorials</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/3d-editor/introduction/index.html">3D Editor</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/platform/introduction/index.html">Platform</a>
+            </li>
+          
+        
+          
+            <li class="active">
+              <a href="/en/api/introduction/index.html">API</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/sdk/introduction/index.html">SDK</a>
+            </li>
+          
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      
+        <li>
+          <a class="gtm-about" href="http://about.archilogic.com" target="_blank">About</a>
+        </li>
+      
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Header
+  =========================================== -->
+  
+
+    <div class="bs-docs-header">
+      <div class="container">
+      </div>
+    </div>
+  
+
+  <div class="container bs-docs-container">
+    <div class="row">
+      <div class="col-md-3">
+  <div class="list-group">
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/api/introduction/index.html class="list-group-item  ">
+          <strong>Overview</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/api/reference/index.html class="list-group-item active ">
+          <strong>Reference</strong>
+        </a>
+        
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/api/reference/requestModel.html class="list-group-item indented-list-group-item  ">
+                requestModel
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/api/reference/echo.html class="list-group-item indented-list-group-item  ">
+                echo
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<div class="col-md-9" role="main">
+  <p> API / Reference</p>
+  <h1 id="reference">Reference</h1>
+
+<p>Click on the following links to get a more detailed description of the methods.</p>
+
+<ul>
+  <li>
+    <p><a href="requestModel.html">requestModel</a></p>
+  </li>
+  <li>
+    <p><a href="echo.html">echo</a></p>
+  </li>
+</ul>
+
+</div>
+
+    </div>
+  </div>
+
+  <footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+    <p>
+      Based on the documentation template by <a href="http://getbootstrap.com">Bootstrap team,</a>
+      generated with a fork of <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc.</a>
+    </p>
+
+    <ul class="bs-docs-footer-links muted">
+    
+    </ul>
+  </div>
+</footer>
+
+
+  
+
+
+
+
+
+
+</body>
+</html>

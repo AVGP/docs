@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://about.archilogic.com/wp-content/uploads/favicon-96x96.png" rel="shortcut icon" type="image/png">
+
+  
+    <title>Plus Feature: Exporting Custom 3D Data from Archilogic</title>
+  
+
+  <meta name="description" content="Learn how to export custom 3D data from Archilogic. This is a feature only available to Plus subscribers.">
+
+  <link href="/assets/css/bootstrap-modified.min.css" rel="stylesheet">
+  <link href="/assets/css/docs.min.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <style>
+
+    /*
+      It is important to have this here, as the site path would'nt be injected
+      in a CSS file.
+    */
+    .bs-docs-masthead {
+      background-image: url(/assets/images/front-background.jpg);
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBHVT8"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBHVT8');</script>
+<!-- End Google Tag Manager -->
+
+  <header class="navbar navbar-static-top bs-docs-nav" id="top">
+  <div class="container">
+    <div class="navbar-header" role="banner">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand"><img id="al-logo" src="/assets/images/gradient_logo_2_300px-height.png"></span>
+      <a class="navbar-brand" href="/index.html">
+        
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li >
+              <a href="/en/tutorials/introduction/index.html">Tutorials</a>
+            </li>
+          
+        
+          
+            <li class="active">
+              <a href="/en/3d-editor/introduction/index.html">3D Editor</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/platform/introduction/index.html">Platform</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/api/introduction/index.html">API</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/sdk/introduction/index.html">SDK</a>
+            </li>
+          
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      
+        <li>
+          <a class="gtm-about" href="http://about.archilogic.com" target="_blank">About</a>
+        </li>
+      
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Header
+  =========================================== -->
+  
+
+    <div class="bs-docs-header">
+      <div class="container">
+      </div>
+    </div>
+  
+
+  <div class="container bs-docs-container">
+    <div class="row">
+      <div class="col-md-3">
+  <div class="list-group">
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/introduction/index.html class="list-group-item  ">
+          <strong>Introduction</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/navigation/index.html class="list-group-item  ">
+          <strong>Navigation</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/vr/index.html class="list-group-item  ">
+          <strong>VR</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/basic-editing/index.html class="list-group-item  ">
+          <strong>Basic Editing</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/sharing/index.html class="list-group-item  ">
+          <strong>Sharing</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/materials/index.html class="list-group-item  ">
+          <strong>Materials</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/Architecture/index.html class="list-group-item  ">
+          <strong>Architecture</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/custom-3d-data/index.html class="list-group-item  ">
+          <strong>Import</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/export/index.html class="list-group-item active ">
+          <strong>Export</strong>
+        </a>
+        
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        
+      
+    
+      
+        <a href=/en/3d-editor/lighting/index.html class="list-group-item  ">
+          <strong>Realistic Lighting</strong>
+        </a>
+        
+      
+    
+  </div>
+</div>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<div class="col-md-9" role="main">
+  <p> 3D Editor / Export</p>
+  <h1 id="custom-3d-data">Custom 3d data</h1>
+
+<p><strong>Exporting 3d content is available with an <a href="/en/platform/settings/subscription.html">Archilogic Plus subscription</a>.</strong></p>
+
+<p>This category describes how to export 3d content from Archilogic and what you have to keep in mind while doing it.</p>
+
+<h2 id="how-to-export-3d-content">How to export 3d content</h2>
+
+<p>In order to export 3d content from Archilogic your Account needs to have a Plus or Professional <a href="/en/platform/settings/subscription.html">subscription</a>.
+With a Plus or Professional subscription a new button appears in the saving menu. Click on the <strong>Export Model</strong> button to open the Export pop up menu.</p>
+
+<p><img src="/assets/images/3D-Export.jpg" alt="Lighting Menu Button" class="img-responsive" /></p>
+
+<p>Once the Export menu is open you have the choice to either select a software you want to export to or a file format.
+If you select a software the exporter automatically selects the best possible export options from a set of available options for this software.</p>
+
+<p><img src="/assets/images/3D-Export-Menu.jpg" alt="Lighting Menu Button" class="img-responsive" /></p>
+
+<p>The drop down menu above the download button gives you the choice whether you want to download the entire mode, the active level or only the selected object.
+Please keep in mind that the export functionality only allows you to download the Architectural object and not the furniture pieces.
+Click on the download button to download the 3d model in a .zip archive.</p>
+
+<h2 id="supported-3d-export-file-formats">Supported 3d export file formats</h2>
+
+<ul>
+  <li>
+    <p>.obj</p>
+  </li>
+  <li>
+    <p>.fbx</p>
+  </li>
+  <li>
+    <p>.blend</p>
+  </li>
+  <li>
+    <p>.3ds</p>
+  </li>
+  <li>
+    <p>.dxf</p>
+  </li>
+</ul>
+
+<h2 id="supported-2d-export-file-formats">Supported 2d export file formats</h2>
+
+<ul>
+  <li>.dxf</li>
+</ul>
+
+</div>
+
+    </div>
+  </div>
+
+  <footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+    <p>
+      Based on the documentation template by <a href="http://getbootstrap.com">Bootstrap team,</a>
+      generated with a fork of <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc.</a>
+    </p>
+
+    <ul class="bs-docs-footer-links muted">
+    
+    </ul>
+  </div>
+</footer>
+
+
+  
+
+
+
+
+
+
+</body>
+</html>

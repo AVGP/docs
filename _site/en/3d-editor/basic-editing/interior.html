@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://about.archilogic.com/wp-content/uploads/favicon-96x96.png" rel="shortcut icon" type="image/png">
+
+  
+    <title>Interior - Archilogic 3D Editor - Basic Editing</title>
+  
+
+  <meta name="description" content="Learn how to get the most out of the interior feature in the Archilogic 3D editor. Read our documentation.">
+
+  <link href="/assets/css/bootstrap-modified.min.css" rel="stylesheet">
+  <link href="/assets/css/docs.min.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <style>
+
+    /*
+      It is important to have this here, as the site path would'nt be injected
+      in a CSS file.
+    */
+    .bs-docs-masthead {
+      background-image: url(/assets/images/front-background.jpg);
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBHVT8"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBHVT8');</script>
+<!-- End Google Tag Manager -->
+
+  <header class="navbar navbar-static-top bs-docs-nav" id="top">
+  <div class="container">
+    <div class="navbar-header" role="banner">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand"><img id="al-logo" src="/assets/images/gradient_logo_2_300px-height.png"></span>
+      <a class="navbar-brand" href="/index.html">
+        
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li >
+              <a href="/en/tutorials/introduction/index.html">Tutorials</a>
+            </li>
+          
+        
+          
+            <li class="active">
+              <a href="/en/3d-editor/introduction/index.html">3D Editor</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/platform/introduction/index.html">Platform</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/api/introduction/index.html">API</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/sdk/introduction/index.html">SDK</a>
+            </li>
+          
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      
+        <li>
+          <a class="gtm-about" href="http://about.archilogic.com" target="_blank">About</a>
+        </li>
+      
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Header
+  =========================================== -->
+  
+
+    <div class="bs-docs-header">
+      <div class="container">
+      </div>
+    </div>
+  
+
+  <div class="container bs-docs-container">
+    <div class="row">
+      <div class="col-md-3">
+  <div class="list-group">
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/introduction/index.html class="list-group-item  ">
+          <strong>Introduction</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/navigation/index.html class="list-group-item  ">
+          <strong>Navigation</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/vr/index.html class="list-group-item  ">
+          <strong>VR</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/basic-editing/index.html class="list-group-item  ">
+          <strong>Basic Editing</strong>
+        </a>
+        
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/basic-editing/profile.html class="list-group-item indented-list-group-item  ">
+                Profile
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/basic-editing/interior.html class="list-group-item indented-list-group-item active ">
+                Interior
+              </a>
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/basic-editing/map.html class="list-group-item indented-list-group-item  ">
+                Map
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/basic-editing/save-scene.html class="list-group-item indented-list-group-item  ">
+                Save Scene
+              </a>
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/basic-editing/screenshot.html class="list-group-item indented-list-group-item  ">
+                Screenshot
+              </a>
+            
+          
+            
+              <a href=/en/3d-editor/basic-editing/fullscreen.html class="list-group-item indented-list-group-item  ">
+                Fullscreen
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/sharing/index.html class="list-group-item  ">
+          <strong>Sharing</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/materials/index.html class="list-group-item  ">
+          <strong>Materials</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/Architecture/index.html class="list-group-item  ">
+          <strong>Architecture</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/custom-3d-data/index.html class="list-group-item  ">
+          <strong>Import</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/export/index.html class="list-group-item  ">
+          <strong>Export</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/lighting/index.html class="list-group-item  ">
+          <strong>Realistic Lighting</strong>
+        </a>
+        
+      
+    
+  </div>
+</div>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<div class="col-md-9" role="main">
+  <p> 3D Editor / Basic Editing</p>
+  <h1 id="interior">Interior</h1>
+
+<h2 id="categories">Categories</h2>
+
+<p>At the moment we have 12 different interior furniture categories.</p>
+
+<p><img src="/assets/images/ui-category_seating.svg" alt="Chairs Icon" class="img-responsive" />
+Chairs<br />
+Including chairs, stools, bar stools and office chairs.</p>
+
+<p><img src="/assets/images/ui-category_relaxing.svg" alt="Couches Icon" class="img-responsive" />
+Sofas and Lounges</p>
+
+<p><img src="/assets/images/ui-category_lamps.svg" alt="Lighting Icon" class="img-responsive" />
+Lighting<br />
+All kind of lamps, whether hanging from the ceiling or standing on a desk.</p>
+
+<p><img src="/assets/images/ui-category_tables.svg" alt="Tables Icon" class="img-responsive" />
+Tables and Desks</p>
+
+<p><img src="/assets/images/ui-category_storage.svg" alt="Storage Icon" class="img-responsive" />
+Storage<br />
+Including sideboards, cupboard and bookcases.</p>
+
+<p><img src="/assets/images/ui-category_bedroom.svg" alt="Bedroom Icon" class="img-responsive" />
+Bedroom</p>
+
+<p><img src="/assets/images/ui-category_decoration.svg" alt="Decoration Icon" class="img-responsive" />
+Decoration<br />
+Contains posters, mirrors, carpets and other decoration items.</p>
+
+<p><img src="/assets/images/ui-category_office.svg" alt="Office Icon" class="img-responsive" />
+Office</p>
+
+<p><img src="/assets/images/ui-category_bathroom.svg" alt="Bathroom Icon" class="img-responsive" />
+Bathroom</p>
+
+<p><img src="/assets/images/ui-category_outdoor.svg" alt="Garden and Terrace Icon" class="img-responsive" />
+Garden and Terrace</p>
+
+<p><img src="/assets/images/ui-category_kids.svg" alt="Children Icon" class="img-responsive" />
+Children</p>
+
+<p><img src="/assets/images/ui-category_accessories.svg" alt="Accessories Icon" class="img-responsive" />
+Accessories</p>
+
+<h2 id="functionality">Functionality</h2>
+
+<h3 id="handling">Handling</h3>
+<p><img src="/assets/images/Basic-Interior.jpg" alt="Interior Context Menu" class="img-responsive" />
+Adding a piece of furniture to a scene is easy. Simply drag and drop the furniture piece of choice from the library on the right in to the 3d model on the left. You can decide yourself where to drop the furniture piece. If you drop it on top of another one you’ll be able to move the lower one while the one on top of it will move along.</p>
+
+<p><img src="/assets/images/Basic-Interior-Handling.jpg" alt="Interior Handling" class="img-responsive" />
+Select a furniture piece by clicking on it with the left mouse button.<br />
+Once selected, two handles show up.<br />
+Click and drag the handle with the 4 arrows to move the furniture object.<br />
+Click and drag the handle with the two curved arrows to rotate the object.</p>
+
+<p><img src="/assets/images/Basic-Interior-Item-Buttons.jpg" alt="Interior Item Buttons" class="img-responsive" />
+If a furniture piece is selected it shows additional information on the right side.<br />
+This information contains the name, picture and a short description of the piece. Besides that there are also three additional buttons.<br />
+The info button links to the website of the manufacturer of the furniture piece.<br />
+Clicking on the button with the two rectangles duplicates the furniture object.<br />
+Clicking on the trash bin deletes the furniture piece from the scene.</p>
+
+<h3 id="grouping">Grouping</h3>
+
+<p>Furniture pieces can be grouped together by selecting one single furniture piece first, press and hold the Shift key and then selecting another furniture piece.<br />
+This can be repeated for an arbitrary number of times. Once the furniture pieces are grouped together they can be moved and rotated together.</p>
+
+<p><img src="/assets/images/Basic-Interior-Group.jpg" alt="Interior Group" class="img-responsive" />
+Selecting a group opens the group menu on the right.<br />
+The group menu shows which items furniture pieces currently are a member of the group.<br />
+Clicking on the ungroup button dissolves the group without deleting the members of the same group.<br />
+Clicking on the button with the two rectangles duplicates the group.<br />
+Clicking on the trash bin deletes the group from the scene along with all its members.</p>
+
+<p>By moving the mouse cursor over the an item of the group results in the associated furniture piece to be highlighted.<br />
+A member of a group can be adjusted separately by clicking on the associated item in the group menu.</p>
+
+</div>
+
+    </div>
+  </div>
+
+  <footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+    <p>
+      Based on the documentation template by <a href="http://getbootstrap.com">Bootstrap team,</a>
+      generated with a fork of <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc.</a>
+    </p>
+
+    <ul class="bs-docs-footer-links muted">
+    
+    </ul>
+  </div>
+</footer>
+
+
+  
+
+
+
+
+
+
+</body>
+</html>

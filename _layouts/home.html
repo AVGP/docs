@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="col-md-12" role="main" style="text-align: center;">
+  {% assign sortedPages = site.pages | sort:'topRank' %}
+  {% for p in sortedPages %}
+    {% if p.topRank %}
+      <h1>
+        <a href={{site.path}}{{p.linkTo}}>{{p.linkName}}</a>
+      </h1>
+    {% endif %}
+  {% endfor %}
+</div>

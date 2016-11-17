@@ -1,0 +1,23 @@
+<div class="col-md-3">
+  <div class="list-group">
+    {% assign path = page.url | split:"/" %}
+    {% assign sortedByLocal = site.pages | sort:'localRank' %}
+    {% assign sortedByMiddle = site.pages | sort:'middleRank' %}
+    {% for p in sortedByMiddle %}
+      {% if p.url contains path[-3] and p.middleRank %}
+        <a href={{site.path}}{{p.url}} class="list-group-item {% if p.url == page.url %}active{% endif %} ">
+          <strong>{{p.linkName}}</strong>
+        </a>
+        {% if p.url contains path[-2] %}
+          {% for q in sortedByLocal %}
+            {% if q.url contains path[-3] and q.url contains path[-2] and q.localRank and q != p%}
+              <a href={{site.path}}{{q.url}} class="list-group-item indented-list-group-item {% if q.url == page.url %}active{% endif %} ">
+                {{q.linkName}}
+              </a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

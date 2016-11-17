@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://about.archilogic.com/wp-content/uploads/favicon-96x96.png" rel="shortcut icon" type="image/png">
+
+  
+    <title>3D Lighting Effects: Light Baking - Archilogic Documentation</title>
+  
+
+  <meta name="description" content="Read our documentation on the 3D lighting effects available for every Archilogic 3D model. ">
+
+  <link href="/assets/css/bootstrap-modified.min.css" rel="stylesheet">
+  <link href="/assets/css/docs.min.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <style>
+
+    /*
+      It is important to have this here, as the site path would'nt be injected
+      in a CSS file.
+    */
+    .bs-docs-masthead {
+      background-image: url(/assets/images/front-background.jpg);
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBHVT8"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBHVT8');</script>
+<!-- End Google Tag Manager -->
+
+  <header class="navbar navbar-static-top bs-docs-nav" id="top">
+  <div class="container">
+    <div class="navbar-header" role="banner">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand"><img id="al-logo" src="/assets/images/gradient_logo_2_300px-height.png"></span>
+      <a class="navbar-brand" href="/index.html">
+        
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li >
+              <a href="/en/tutorials/introduction/index.html">Tutorials</a>
+            </li>
+          
+        
+          
+            <li class="active">
+              <a href="/en/3d-editor/introduction/index.html">3D Editor</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/platform/introduction/index.html">Platform</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/api/introduction/index.html">API</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/sdk/introduction/index.html">SDK</a>
+            </li>
+          
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      
+        <li>
+          <a class="gtm-about" href="http://about.archilogic.com" target="_blank">About</a>
+        </li>
+      
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Header
+  =========================================== -->
+  
+
+    <div class="bs-docs-header">
+      <div class="container">
+      </div>
+    </div>
+  
+
+  <div class="container bs-docs-container">
+    <div class="row">
+      <div class="col-md-3">
+  <div class="list-group">
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/introduction/index.html class="list-group-item  ">
+          <strong>Introduction</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/navigation/index.html class="list-group-item  ">
+          <strong>Navigation</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/vr/index.html class="list-group-item  ">
+          <strong>VR</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/basic-editing/index.html class="list-group-item  ">
+          <strong>Basic Editing</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/sharing/index.html class="list-group-item  ">
+          <strong>Sharing</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/materials/index.html class="list-group-item  ">
+          <strong>Materials</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/Architecture/index.html class="list-group-item  ">
+          <strong>Architecture</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/custom-3d-data/index.html class="list-group-item  ">
+          <strong>Import</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/export/index.html class="list-group-item  ">
+          <strong>Export</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/lighting/index.html class="list-group-item active ">
+          <strong>Realistic Lighting</strong>
+        </a>
+        
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        
+      
+    
+  </div>
+</div>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<div class="col-md-9" role="main">
+  <p> 3D Editor / Realistic Lighting</p>
+  <h1 id="realistic-lighting">Realistic Lighting</h1>
+
+<p><strong>Realistic lighting is available with an <a href="/en/platform/settings/subscription.html">Archilogic Professional subscription</a>.</strong></p>
+
+<p>Lighting plays a huge role in an Archilogic model. While the real time lighting within Archilogic is good enough to let you see and recognize everything in a room, it always feels a bit off. You may not notice it immediately but the thing that is lacking is the atmosphere. A room without realistic lighting looks bland and boring as every surface receives the same amount of light.</p>
+
+<p>This is why we introduced a feature to add realistic lighting to Archilogic. With realistic lighting switched on a room feels immediately more alive. Light shines through the windows and the corners of a room are suddenly darker.</p>
+
+<p>You can open the realistic lighting menu by clicking on little sun icon in the main menu.</p>
+
+<p><img src="/assets/images/Lighting-Button.jpg" alt="Lighting Menu Button" class="img-responsive" /></p>
+
+<p>The Lighting menu looks differently depending on whether realistich lighting is active or inactive.</p>
+
+<h2 id="realistic-lighting-is-inactive">Realistic Lighting is inactive</h2>
+
+<p><img src="/assets/images/Lighting-Menu-Preview.jpg" alt="Menu for when realistic lighting is inactive" class="img-responsive" /></p>
+
+<p>In its inactive state the menu for realistic lighting lets you adjust the position of the sun by changing the date, time, location and rotation of the model.
+Once you start playing around with these handles you can see a little sun symbol moving around in the 3d viewport along with some low quality real time lighting that gives you a rough idea on how the lighting will look once its finished.
+Once you’re happy with the direction and angle the light comes from you can click on <strong>Continue to Lo-Res</strong> to create a first preview of the lighting.
+The creation of the low resolution lighting should only take some seconds till it’s finished. You can however save the scene after you clicked on the button and do something else as the rendering is done on one of our servers in the background and does not need the model to be open during this process.
+<img src="/assets/images/Lighting-Menu-Baking1.jpg" alt="Menu for when realistic lighting is baking a low resolution lightmap" class="img-responsive" /></p>
+
+<h2 id="low-resolution-lighting-is-active">Low Resolution Lighting is active</h2>
+
+<p><strong>If realistic lighting is switched on architectural objects become static and can’t be further customized!</strong></p>
+
+<p><img src="/assets/images/Lighting-Menu-LoRes.jpg" alt="Menu for when realistic lighting is baking a low resolution lightmap" class="img-responsive" /></p>
+
+<p>When the rendering of the preview is done you can already get a good impression on how the lighting atmosphere will look and feel like. If you’re happy with your set up you can click on the <strong>Continue to Hi-Res</strong> button to create a high resolution version of the lighting that looks better than the low resolution one.
+The creation of the high resolution lighting takes a bit longer till it’s finished. You can however also save the scene after you clicked on the button and do something else as the rendering is done on one of our servers in the background and does not need the model to be open during this process.</p>
+
+<p>If you want to discard the lighting or edit the Architecture you have to click on the <strong>Change Sun Direction</strong> button to switch off realistic lighting.</p>
+
+<p>By activating the <strong>Manually set lightmaps</strong> checkbox you can choose to set the number of the lightmaps manually.
+Basically it can be said that the more lightmaps you add to your model, the nicer the lighting will look.
+The downside of a big number of lightmaps is that the model automatically takes longer to load and can perform worse on devices with a slow graphics card.
+If you want to manually set the number of lightmaps you have to do it <strong>before</strong> you click on the <strong>Continue to Hi-Res</strong> button.
+Usually the best practice is to leave the checkbox inactive and let our system automatically decide how many lightmaps it needs for a model.</p>
+
+<p><img src="/assets/images/Lighting-Menu-Baking2.jpg" alt="Menu for when realistic lighting is baking a low resolution lightmap" class="img-responsive" /></p>
+
+<h2 id="high-resolution-lighting-is-active">High Resolution Lighting is active</h2>
+
+<p><strong>If realistic lighting is switched on architectural objects become static and can’t be further customized!</strong></p>
+
+<p><img src="/assets/images/Lighting-Menu-HiRes.jpg" alt="Menu for when realistic lighting is baking a low resolution lightmap" class="img-responsive" /></p>
+
+<p>The high resolution lighting is the last stage of lighting and also the one that looks the best. The menu looks more or less the same as the previous one.
+You can slightly change the look and feel of the lighting atmosphere by changing the values of Intensity and Exposure.
+With the <em>Intensity</em> and <em>Exposure</em> sliders you can customize how the lightmap is applied onto the 3d model.
+Usually a value of 1.2 for Intensity and 0.7 for Exposure works best.</p>
+
+<p>If you want to discard the lighting or edit the Architecture you have to click on the <strong>Change Sun Direction</strong> button to switch off realistic lighting.</p>
+
+</div>
+
+    </div>
+  </div>
+
+  <footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+    <p>
+      Based on the documentation template by <a href="http://getbootstrap.com">Bootstrap team,</a>
+      generated with a fork of <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc.</a>
+    </p>
+
+    <ul class="bs-docs-footer-links muted">
+    
+    </ul>
+  </div>
+</footer>
+
+
+  
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% include table-of-contents.html %}
+
+{% assign path = page.url | split:"/" %}
+{% for p in site.pages %}
+  {% if p.url contains path[-3] and p.topRank %}
+    {% assign title = p.linkName %}
+  {% elsif p.url contains path[-2] and p.url contains "index" %}
+    {% assign subtitle = p.linkName %}
+  {% endif %}
+{% endfor %}
+
+<div class="col-md-9" role="main">
+  <p> {{title}} / {{subtitle}}</p>
+  {{ content }}
+</div>

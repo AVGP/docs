@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include header.html %}
+
+<body>
+
+  {% include google-tag-manager.html %}
+
+  {% include nav.html %}
+
+  <!-- Header
+  =========================================== -->
+  {% if page.isHome %}
+  <div class="bs-docs-masthead">
+    <div class="container">
+      <h1 class="home-title">{{site.name}}</h1>
+    </div>
+  </div>
+
+  {% else %}
+
+    <div class="bs-docs-header">
+      <div class="container">
+      </div>
+    </div>
+  {% endif %}
+
+  <div class="container bs-docs-container">
+    <div class="row">
+      {{content}}
+    </div>
+  </div>
+
+  {% include footer.html %}
+
+  {% include scripts.html %}
+
+</body>
+</html>

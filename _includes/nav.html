@@ -1,0 +1,36 @@
+<header class="navbar navbar-static-top bs-docs-nav" id="top">
+  <div class="container">
+    <div class="navbar-header" role="banner">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand"><img id="al-logo" src="{{site.path}}/assets/images/gradient_logo_2_300px-height.png"></span>
+      <a class="navbar-brand" href="{{site.path}}/index.html">
+        {{site.name}}
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        {% assign path = page.url | split:"/" %}
+        {% assign sortedPages = site.pages | sort:'topRank' %}
+        {% for p in sortedPages %}
+          {% if p.topRank %}
+            <li {% if p.url contains path[-3] %}class="active"{% endif %}>
+              <a href="{{site.path}}{{p.linkTo}}">{{p.linkName}}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      {% for p in site.headerLinks %}
+        <li>
+          <a class="gtm-about" href="{{p.url}}" target="_blank">{{p.linkName}}</a>
+        </li>
+      {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

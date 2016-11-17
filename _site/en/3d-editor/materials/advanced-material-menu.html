@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://about.archilogic.com/wp-content/uploads/favicon-96x96.png" rel="shortcut icon" type="image/png">
+
+  
+    <title>Professional Feature: Advanced Material Menu - Archilogic Documentation</title>
+  
+
+  <meta name="description" content="Learn how to use the advanced Archilogic material menu and how to upload your own textures.">
+
+  <link href="/assets/css/bootstrap-modified.min.css" rel="stylesheet">
+  <link href="/assets/css/docs.min.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+
+  <style>
+
+    /*
+      It is important to have this here, as the site path would'nt be injected
+      in a CSS file.
+    */
+    .bs-docs-masthead {
+      background-image: url(/assets/images/front-background.jpg);
+    }
+  </style>
+
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WBHVT8"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WBHVT8');</script>
+<!-- End Google Tag Manager -->
+
+  <header class="navbar navbar-static-top bs-docs-nav" id="top">
+  <div class="container">
+    <div class="navbar-header" role="banner">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand"><img id="al-logo" src="/assets/images/gradient_logo_2_300px-height.png"></span>
+      <a class="navbar-brand" href="/index.html">
+        
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li >
+              <a href="/en/tutorials/introduction/index.html">Tutorials</a>
+            </li>
+          
+        
+          
+            <li class="active">
+              <a href="/en/3d-editor/introduction/index.html">3D Editor</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/platform/introduction/index.html">Platform</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/api/introduction/index.html">API</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/en/sdk/introduction/index.html">SDK</a>
+            </li>
+          
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      
+        <li>
+          <a class="gtm-about" href="http://about.archilogic.com" target="_blank">About</a>
+        </li>
+      
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Header
+  =========================================== -->
+  
+
+    <div class="bs-docs-header">
+      <div class="container">
+      </div>
+    </div>
+  
+
+  <div class="container bs-docs-container">
+    <div class="row">
+      <div class="col-md-3">
+  <div class="list-group">
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/introduction/index.html class="list-group-item  ">
+          <strong>Introduction</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/navigation/index.html class="list-group-item  ">
+          <strong>Navigation</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/vr/index.html class="list-group-item  ">
+          <strong>VR</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/basic-editing/index.html class="list-group-item  ">
+          <strong>Basic Editing</strong>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a href=/en/3d-editor/sharing/index.html class="list-group-item  ">
+          <strong>Sharing</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/materials/index.html class="list-group-item  ">
+          <strong>Materials</strong>
+        </a>
+        
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <a href=/en/3d-editor/materials/advanced-material-menu.html class="list-group-item indented-list-group-item active ">
+                Advanced Material Menu
+              </a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        
+      
+    
+      
+        <a href=/en/3d-editor/Architecture/index.html class="list-group-item  ">
+          <strong>Architecture</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/custom-3d-data/index.html class="list-group-item  ">
+          <strong>Import</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/export/index.html class="list-group-item  ">
+          <strong>Export</strong>
+        </a>
+        
+      
+    
+      
+        <a href=/en/3d-editor/lighting/index.html class="list-group-item  ">
+          <strong>Realistic Lighting</strong>
+        </a>
+        
+      
+    
+  </div>
+</div>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<div class="col-md-9" role="main">
+  <p> 3D Editor / Materials</p>
+  <h1 id="advanced-material-menu">Advanced Material Menu</h1>
+
+<p>If you select a material there are two buttons right beneath the selected material icon; Library and Custom.
+By clicking on the <strong>Custom</strong> button, you swap from the Archilogic material library to the advanced material menu.
+The advanced material menu gives you a lot more options to customize a material and even lets you upload your own textures to Archilogic.</p>
+
+<p><img src="/assets/images/Materials-Menu-Advanced.jpg" alt="Different Materials" class="img-responsive" /></p>
+
+<ul>
+  <li>
+    <p>The <strong>Diffuse Color</strong> widget lets you change the actual color of the material. You can either change the color by clicking into the color field or by entering a hexadecimal color code. If the diffuse color value is <em>#ffffff</em> the material is either completely white or it uses the color of the diffuse texture without any colorations.</p>
+  </li>
+  <li>
+    <p>The <strong>Specular Color</strong> widget lets you change the color of the specular reflection. If you don’t want to get a colored reflection you can also just stay in the grey area of the color field. The darker the color value the less specular reflection the material has. If the specular color is black the material doesn’t reflect at all.</p>
+  </li>
+  <li>
+    <p>The <strong>Specular Coefficient</strong> is also known as <em>hardness</em> in other applications. With the specular coefficient you can determine the hardness of the reflection. The higher the value, the harder the reflection.</p>
+  </li>
+  <li>
+    <p>With the <strong>Opacity</strong> value you can determine the visibility of the material. If the value is 0 the material is invisible and if it is 1 the material is fully visible. Everything in between is more or less transparent.</p>
+  </li>
+  <li>
+    <p>Archilogic materials are a combination of different <strong>Textures</strong> also know as maps and a number of different settings. An Archilogic material consists of four different texture types: <em>Diffuse</em> maps, <em>Specular</em> maps, <em>Normal</em> maps and <em>Alpha</em> maps.
+<strong>You can replace these texture maps by dragging and dropping an image file from your computer on to one of the texture map thumbnails.</strong></p>
+
+    <ul>
+      <li><strong>Diffuse</strong> maps contain the color and image information of a material.</li>
+      <li><strong>Specular</strong> maps are used to influence the reflectivity of a material. Specular maps are monochrome. The brighter an area the stronger it reflects.</li>
+      <li>The <strong>Normal</strong> map is an advanced form of the better known <em>bump maps</em>. Normal maps are used to simulate dents, bumps or scratches in the model and behave correctly depending the light direction.</li>
+      <li>The <strong>Alpha</strong> map is used as a mask to “cut” holes into materials. It is usually a black and white image. The areas of the material covored by the white texture surface is fully visible while the areas covered with black become invisible.</li>
+    </ul>
+  </li>
+  <li>
+    <p>With the <strong>Texture Size</strong> widget you can determine with what size the material is applied to the 3d object.</p>
+  </li>
+  <li>
+    <p>The <strong>Texture Wrap</strong> dropdown menu lets you choose between <em>Repeat</em> and <em>Mirror</em>. Repeat means that the textures will be repeated and placed next to itself while mirror means that the neighboring copy will be flipped.</p>
+  </li>
+  <li>
+    <p>With the <strong>Baking Light Emission</strong> parameter you can control how much light a material emits. The emitted light will only be visible once realistic lighting is switched on.</p>
+  </li>
+  <li>
+    <p>If the <strong>Use in Baking Calculation</strong> checkbox is active then the material will be used during the realistic lighting calculation, influence its surrounding and will for example drop a shadow.</p>
+  </li>
+  <li>
+    <p>If the <strong>Add Lightmap</strong> checkbox is active then the material will receive a lighting information after realistic lighting is switched on.</p>
+  </li>
+  <li>
+    <p>If the <strong>Hide after Baking</strong> checkbox is active then the material will be invisible after realistic lighting is switched on. This can be useful if you want to place boxes with a light emitting material in a room to give it some extra light without actually showing the box.</p>
+  </li>
+  <li>
+    <p>If the <strong>Cast Real Time Shadows</strong> checkbox is active then the material will drop a low quality real time shadow even if realistic lighting is not switched on.</p>
+  </li>
+  <li>
+    <p>With the <strong>Wireframe Line Thickness</strong> <em>Feature is still in BETA</em> parameter you can determine the thickness of the wireframe. If the value is 0 the wireframe will be invisible.</p>
+  </li>
+  <li>
+    <p>With the <strong>Wireframe Threshold Angle</strong> <em>Feature is still in BETA</em> parameter you can determine the treshold of the wireframe. If the value is 0 the wireframe will even show polygons of flat areas. The higher the treshhold the bigger the angle of neighboring polygons needs to be before they will be show in the wireframe.</p>
+  </li>
+  <li>
+    <p>The <strong>Wireframe Color</strong> <em>Feature is still in BETA</em> widget lets you choose the color of the wireframe. You can either change the color by clicking into the color field or by entering a hexadecimal color code.</p>
+  </li>
+  <li>
+    <p>The <strong>Wireframe Opacity</strong> <em>Feature is still in BETA</em> value determines the opacity of the wireframe. If the value is 0 the wireframe is invisible if it is 1 it is fully visible.</p>
+  </li>
+</ul>
+
+</div>
+
+    </div>
+  </div>
+
+  <footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+    <p>
+      Based on the documentation template by <a href="http://getbootstrap.com">Bootstrap team,</a>
+      generated with a fork of <a href="https://github.com/mistic100/jekyll-bootstrap-doc">Jekyll Bootstrap Doc.</a>
+    </p>
+
+    <ul class="bs-docs-footer-links muted">
+    
+    </ul>
+  </div>
+</footer>
+
+
+  
+
+
+
+
+
+
+</body>
+</html>
