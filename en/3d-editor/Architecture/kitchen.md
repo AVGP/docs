@@ -8,7 +8,7 @@ meta: "Learn all about the kitchen element and how to use it in the Archilogic 3
 localRank: 6
 ---
 
-#Kitchen
+# Kitchen
 
 Like most other architectural objects the kitchen object has two handles. The first handle with the four triangles is used to move it around while the second handle with the two bent arrows is to rotate or enlarge the kitchen. Segments are added automatically depending on the length of the kitchen.
 

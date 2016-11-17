@@ -8,7 +8,7 @@ meta: "Find out how to use the Archilogic folder feature available in the dashbo
 localRank: 2
 ---
 
-#Edit Folders
+# Edit Folders
 If you enter a folder 3 new buttons will be visible in the top right corner of the screen, just beneath the Add new model button.
 
 ![Folder Menu]({{site.path}}/assets/images/Platform-Folder-Menu.jpg){: .img-responsive}

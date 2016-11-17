@@ -8,7 +8,7 @@ meta: "Learn how to use the map feature in the Archilogic 3D editor and be on yo
 localRank: 4
 ---
 
-#Map  
+# Map  
 Clicking the map button opens Google maps inside the context menu which shows the location of the building in this scene.  
 ![Map Menu]({{site.path}}/assets/images/Basic-Map-Menu.jpg){: .img-responsive}
 

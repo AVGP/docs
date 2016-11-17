@@ -8,7 +8,7 @@ meta: "Find out how to use the Archilogic folder feature available in the dashbo
 localRank: 3
 ---
 
-#Subfolders
+# Subfolders
 
 It is now possible to create subfolders in Archilogic.
 You can distinguish regular folders from folders with subfolders by taking a look at the folder list.
@@ -17,7 +17,7 @@ By clicking on the folder name with the **[+]** in front of the name you can exp
 
 ![Subfolders]({{site.path}}/assets/images/Platform-Folder-List-Subfolders.jpg){: .img-responsive}
 
-##How to create a subfolder:
+## How to create a subfolder:
 
 * Click on *add new Folder*
 

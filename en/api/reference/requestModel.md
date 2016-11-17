@@ -8,11 +8,11 @@ meta: "Learn more about the Archilogic API Request model in our documentation av
 localRank: 2
 ---
 
-#requestModel
+# requestModel
 
 Request creation of a 3D model from a floor plan image and optional property photos.
 
-##Parameters
+## Parameters
 
 * **apiKey** +[String]+ – Valid API key used for client authentication.
 
@@ -48,11 +48,11 @@ Request creation of a 3D model from a floor plan image and optional property pho
 
     * **price** +[Number]+ (Optional) – Property sales or rental price in given currency.
 
-##Result
+## Result
 
 * **jobId** +[String]+ – Unique alphanumeric job identifier. (e.g. d394jnd8).
 
-##Callback
+## Callback
 
 The callback request is a JSON–RPC notification message for modelClosed method containing following parameters:
 
@@ -80,9 +80,9 @@ The reason parameter is either one of the following strings:
 
 **Note for implementers:** We may add more reasons in the future or reasons may disappear, if no longer needed. Always provide a “catch all” handler to make sure your code copes with unknown reasons.
 
-##Examples
+## Examples
 
-###Request
+### Request
 
 POST https://api.archilogic.com/v1 HTTP/1.1
 Host: api.archilogic.com
@@ -118,7 +118,7 @@ Content-Type: application/json
           "id" : "12345678"
     }
 
-###Response
+### Response
 
     {
       "jsonrpc": "2.0",
@@ -128,7 +128,7 @@ Content-Type: application/json
       "id" : "12345678"
     }
 
-###Callback Request on success
+### Callback Request on success
 
     POST http://yourcompany.com/api?token=6k3n278i2ndibwj3
     Content-Type: application/json
@@ -144,7 +144,7 @@ Content-Type: application/json
       }
     }
 
-###Callback Request on failure
+### Callback Request on failure
 
     POST http://yourcompany.com/api?token=6k3n278i2ndibwj3
     Content-Type: application/json

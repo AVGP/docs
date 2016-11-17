@@ -8,7 +8,7 @@ meta: "Learn how to import various formats in the Archilogic 3D Editor when you 
 localRank: 3
 ---
 
-#File Format
+# File Format
 
 **Importing custom 3d data is available with an [Archilogic Professional subscription]({{site.path}}/en/platform/settings/subscription.html).**
 

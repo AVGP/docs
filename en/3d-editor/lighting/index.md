@@ -9,7 +9,7 @@ middleRank: 10
 localRank: 1
 ---
 
-#Realistic Lighting
+# Realistic Lighting
 
 Lighting plays a huge role in an Archilogic model. While the real time lighting within Archilogic is good enough to let you see and recognize everything in a room, it always feels a bit off. You may not notice it immediately but the thing that is lacking is the atmosphere. A room without realistic lighting looks bland and boring as every surface receives the same amount of light.
 
@@ -21,7 +21,7 @@ You can open the realistic lighting menu by clicking on little sun icon in the m
 
 The Lighting menu looks differently depending on whether realistich lighting is active or inactive.
 
-##Realistic Lighting is inactive
+## Realistic Lighting is inactive
 
 ![Menu for when realistic lighting is inactive]({{site.path}}/assets/images/Lighting-Menu-Preview.jpg){: .img-responsive}
 
@@ -31,7 +31,7 @@ Once you're happy with the direction and angle the light comes from you can clic
 The creation of the low resolution lighting should only take some seconds till it's finished. You can however save the scene after you clicked on the button and do something else as the rendering is done on one of our servers in the background and does not need the model to be open during this process.
 ![Menu for when realistic lighting is baking a low resolution lightmap]({{site.path}}/assets/images/Lighting-Menu-Baking1.jpg){: .img-responsive}
 
-##Low Resolution Lighting is active
+## Low Resolution Lighting is active
 
 **If realistic lighting is switched on architectural objects become static and can't be further customized!**
 
@@ -50,7 +50,7 @@ Usually the best practice is to leave the checkbox inactive and let our system a
 
 ![Menu for when realistic lighting is baking a low resolution lightmap]({{site.path}}/assets/images/Lighting-Menu-Baking2.jpg){: .img-responsive}
 
-##High Resolution Lighting is active
+## High Resolution Lighting is active
 
 **If realistic lighting is switched on architectural objects become static and can't be further customized!**
 

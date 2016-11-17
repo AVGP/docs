@@ -8,7 +8,7 @@ meta: "Learn how to use the advanced Archilogic material menu and how to upload 
 localRank: 2
 ---
 
-#Advanced Material Menu
+# Advanced Material Menu
 
 If you select a material there are two buttons right beneath the selected material icon; Library and Custom.
 By clicking on the **Custom** button, you swap from the Archilogic material library to the advanced material menu.
@@ -16,7 +16,7 @@ The advanced material menu gives you a lot more options to customize a material 
 
 ![Different Materials]({{site.path}}/assets/images/Materials-Menu-Advanced.jpg){: .img-responsive}
 
-* The **Diffuse Color** widget lets you change the actual color of the material. You can either change the color by clicking into the color field or by entering a hexadecimal color code. If the diffuse color value is *#ffffff* the material is either completely white or it uses the color of the diffuse texture without any colorations.
+* The **Diffuse Color** widget lets you change the actual color of the material. You can either change the color by clicking into the color field or by entering a hexadecimal color code. If the diffuse color value is *# ffffff* the material is either completely white or it uses the color of the diffuse texture without any colorations.
 
 * The **Specular Color** widget lets you change the color of the specular reflection. If you don't want to get a colored reflection you can also just stay in the grey area of the color field. The darker the color value the less specular reflection the material has. If the specular color is black the material doesn't reflect at all.
 

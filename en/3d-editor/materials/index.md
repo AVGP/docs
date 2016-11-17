@@ -9,7 +9,7 @@ middleRank: 6
 localRank: 1
 ---
 
-#Materials
+# Materials
 
 **Materials are available with an [Archilogic Professional subscription]({{site.path}}/en/platform/settings/subscription.html).**
 

@@ -8,7 +8,7 @@ meta: "Learn all about the tag object and how to use it in the Archilogic 3D Edi
 localRank: 10
 ---
 
-#Tag
+# Tag
 
 The tag object is a fairly simple object to name certain things within a scene. It can be used to name rooms or communicate certain things or to make comments.
 It has a single handle that can be used to move it around in the scene.

@@ -9,13 +9,13 @@ middleRank: 9
 localRank: 1
 ---
 
-#Custom 3d data
+# Custom 3d data
 
 **Exporting 3d content is available with an [Archilogic Plus subscription]({{site.path}}/en/platform/settings/subscription.html).**
 
 This category describes how to export 3d content from Archilogic and what you have to keep in mind while doing it.
 
-##How to export 3d content
+## How to export 3d content
 
 In order to export 3d content from Archilogic your Account needs to have a Plus or Professional [subscription]({{site.path}}/en/platform/settings/subscription.html).
 With a Plus or Professional subscription a new button appears in the saving menu. Click on the **Export Model** button to open the Export pop up menu.
@@ -31,7 +31,7 @@ The drop down menu above the download button gives you the choice whether you wa
 Please keep in mind that the export functionality only allows you to download the Architectural object and not the furniture pieces.
 Click on the download button to download the 3d model in a .zip archive.
 
-##Supported 3d export file formats
+## Supported 3d export file formats
 
 * .obj
 
@@ -43,6 +43,6 @@ Click on the download button to download the 3d model in a .zip archive.
 
 * .dxf
 
-##Supported 2d export file formats
+## Supported 2d export file formats
 
 * .dxf

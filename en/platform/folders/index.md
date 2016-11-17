@@ -8,7 +8,7 @@ meta: "Find out how to use the Archilogic folder feature available in the dashbo
 middleRank: 2
 ---
 
-#Folders
+# Folders
 
 The more stuff you have on your desk the less likely it becomes to actualy find what you're looking for. The same goes for your Archilogic 3d models.
 Thankfully there is a way clean up that mess. Archilogic allows you to create your own folders and store your models in them.
@@ -23,6 +23,6 @@ In the folder list you can see every folder that you've created. You can either 
 
 To get back from one folder to the model overview just click on the folder icon again and then click on **all models**.
 
-##Add 3d model to folder
+## Add 3d model to folder
 
 If you want to put the 3d model into a folder you have to first click on the edit button and then on the **Add folder** link and select from an already existing folder or create a new one.![Change The Model Folder]({{site.path}}/assets/images/Platform-Dashboard-Model-Folder.gif){: .img-responsive}

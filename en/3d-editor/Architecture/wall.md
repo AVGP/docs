@@ -8,7 +8,7 @@ meta: "Learn all about the wall element and how to use it in the Archilogic 3D E
 localRank: 2
 ---
 
-#Walls
+# Walls
 
 Similar to a furniture object the wall object must also be dragged and dropped into the scene before it can be used.
 It also has the same handles as a furniture piece.
@@ -39,7 +39,7 @@ This value can be increased to a maximum of 2 meters. The baseboards can also be
 By activating the **Lock** checkbox the wall object becomes locked and can't be selected anymore.
 To revert this or editing a locked object you first have to open the architecture menu and then activate the **Edit locked objects** checkbox.
 
-#Doors
+# Doors
 **Doors do not work as separate objects and have to be dragged on to an already existing wall.**
 
 The handle for the door objects work similar than those of the wall objects. The handle with the four triangles is used to move the door around within the constraints of the wall. The handle with the two triangles is used to extend the size of the door to a maximum of 2 meters.
@@ -72,7 +72,7 @@ By activating the **Lock** checkbox the door object becomes locked and can't be 
 To revert this or editing a locked object you first have to open the architecture menu and then activate the **Edit locked objects** checkbox.
 
 
-#Windows
+# Windows
 **Windows do not work as separate objects and have to be dragged on to an already existing wall.**
 
 The handle for the window objects work similar than those of the wall objects. The handle with the four triangles is used to move the window around within the constraints of the wall. The handle with the two triangles is used to extend the size of the window.

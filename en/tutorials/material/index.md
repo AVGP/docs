@@ -9,7 +9,7 @@ middleRank: 7
 localRank: 1
 ---
 
-#Changing materials in Archilogic
+# Changing materials in Archilogic
 
 Learn how to change or customize the material of an imported custom 3d model by taking a look at the tutorial video below.
 

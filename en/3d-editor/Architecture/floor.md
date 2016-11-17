@@ -8,13 +8,13 @@ meta: "Learn all about the floor element and how to use it in the Archilogic 3D 
 localRank: 3
 ---
 
-#Floors
+# Floors
 
 ![Floor Object]({{site.path}}/assets/images/Architecture-Floor-Object.jpg){: .img-responsive}
 
 The floor object is a relatively simple object that consists of three parts. The floor, the side and the ceiling. Each of these parts can be materialized separately. The floor object has two handles, one to move the object around and one to increase the size of the object.
 
-#Polyfloors
+# Polyfloors
 
 ![Polyfloor Object]({{site.path}}/assets/images/Architecture-Polyfloor-Object.jpg){: .img-responsive}
 
@@ -29,7 +29,7 @@ The first thing that differentiates the polyfloor object from a regular floor ob
 
 Additional handles can be added by clicking on the polyfloor object. Unnecessary handles can be removed again by simply clicking on them.
 
-#Ceilings
+# Ceilings
 
 Ceilings in Archilogic can be seen while the camera is inside the model but are invisible if the camera is outside of the model. Archilogic makes use of a little "graphical trick" to achieve this. Because the ceiling objects are planes that are facing downwards only the front face gets rendered while the backface is not rendered and therefore completely transparent for the viewer.
 

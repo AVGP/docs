@@ -8,7 +8,7 @@ meta: "Learn how to import your custom 3D data in the Archilogic 3D editor. This
 localRank: 2
 ---
 
-#Importing custom 3d data
+# Importing custom 3d data
 
 **Importing custom 3d data is available with an [Archilogic Professional subscription]({{site.path}}/en/platform/settings/subscription.html).**
 

@@ -9,19 +9,19 @@ middleRank: 1
 localRank: 1
 ---
 
-#Overview
+# Overview
 
 This overview should give you all the necessary information to use our API
 
-##Methods
+## Methods
 
 * requestedModel
 
 * echo
 
-##General Principles
+## General Principles
 
-###Common
+### Common
 
 * Classic remote call semantics with **request & response**
 
@@ -35,7 +35,7 @@ This overview should give you all the necessary information to use our API
 
 * Message properties are **mandatory by default** unless marked as optional (mandatory arrays must not be empty)
 
-###Request
+### Request
 
 * URL is **https://api.archilogic.com/v1**
 
@@ -53,7 +53,7 @@ This overview should give you all the necessary information to use our API
 
 <br>
 
-####Request Header Example
+#### Request Header Example
 
 POST https://api.archilogic.com/v1 HTTP/1.1
 
@@ -61,7 +61,7 @@ Host: api.archilogic.com
 
 Content-Type: application/json
 
-###Response
+### Response
 
 * **id** property is the same as supplied in the corresponding request (may be null for malformed requests)
 

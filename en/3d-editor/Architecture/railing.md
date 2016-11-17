@@ -8,7 +8,7 @@ meta: "Learn all about the railing element and how to use it in the Archilogic 3
 localRank: 9
 ---
 
-#Railing
+# Railing
 
 The railing object handles mostly the same as the closet and the railing object, but has some object specific options. The object has two handles. The first handle with the four triangles is used to move the object around while the second handle with the two bent arrows is to rotate or enlarge it.
 

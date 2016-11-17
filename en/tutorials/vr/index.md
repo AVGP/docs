@@ -9,7 +9,7 @@ middleRank: 9
 localRank: 1
 ---
 
-#Virtual Reality
+# Virtual Reality
 
 We fully support Google Cardboard. Support for other VR devices may come in the future.
 

@@ -9,7 +9,7 @@ middleRank: 5
 localRank: 1
 ---
 
-#Profile Settings
+# Profile Settings
 
 To open the profile settings menu click on the user icon in the top right corner of the screen.
 

@@ -8,7 +8,7 @@ meta: "3D Model Order Checkout - Ordering an interactive model from Archilogic."
 localRank: 4
 ---
 
-#Checkout
+# Checkout
 
 By clicking the "Checkout" button you get to the checkout overview. Here you can review your order and check your billing information. Please adjust the billing information if they're not correct.
 

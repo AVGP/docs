@@ -9,7 +9,7 @@ middleRank: 3
 localRank: 1
 ---
 
-#Furnishing
+# Furnishing
 
 Learn how to place furniture into your Archilogic model and how to group several furniture pieces together.
 

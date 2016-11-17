@@ -8,7 +8,7 @@ meta: "You can use the fullscreen view in the Archilogic 3D editor to help with 
 localRank: 7
 ---
 
-#Fullscreen
+# Fullscreen
 
 Press the button on the lower right corner of the Archilogic window to enter the fullscreen mode.  
 Fullscreen is available from both, the editor window mode and the viewer window mode.

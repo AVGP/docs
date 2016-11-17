@@ -11,11 +11,11 @@ localRank: 2
 # Order an Archilogic 3d model
 <br>
 
-##How it works in short
+## How it works in short
 
 The way to your own 3d model is really easy. All you need is a 3d floor plan of the apartment or office you want to have a 3d model of. You upload your floor plan and we use it to create a fully modelled, rendered and furnished 3d model within 24 hours.
 
-##Order Form
+## Order Form
 
 The first thing you have to decide is whether the model you want to order is an apartment or an office. If it's an apartment, choose **Residential** and if it's an office **Commercial**.
 ![Model Type]({{site.path}}/assets/images/Platform-NewModel-Order-Type.jpg){: .img-responsive}<br><br>

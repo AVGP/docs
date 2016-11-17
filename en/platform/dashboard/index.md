@@ -9,7 +9,7 @@ middleRank: 2
 localRank: 1
 ---
 
-#Dashboard
+# Dashboard
 
 The dashboard is your main working space within the Archilogic platform. Here you can find all 3d models that you either bought from Archilogic or built yourself. You have the options to search for certain models by name, [edit the model information](edit-model.html) or use different sorting and [display modes](display-options.html).
 

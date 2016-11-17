@@ -7,7 +7,7 @@ meta: "How to make screenshots of your 3D model. Learn how to make screenshots i
 
 localRank: 6
 ---
-#Screenshot
+# Screenshot
 
 **The screenshot feature is available with an [Archilogic Plus subscription]({{site.path}}/en/platform/settings/subscription.html)**
 

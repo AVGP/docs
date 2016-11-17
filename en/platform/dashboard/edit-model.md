@@ -8,7 +8,7 @@ meta: "Do you have questions regarding how to edit a 3D model in the Archilogic 
 localRank: 3
 ---
 
-#Edit Model Information
+# Edit Model Information
 
 To edit the information of a 3d model in the Archilogic platform you can either open it in the 3d editor or you can click on the little button in the top right corner of the model thumbnail.
 ![3d Model Thumbnail]({{site.path}}/assets/images/Platform-Dashboard-Model-Thumbnail.jpg){: .img-responsive}

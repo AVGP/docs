@@ -8,21 +8,21 @@ meta: "Archilogic API reference documentation is available regarding the echo fu
 localRank: 3
 ---
 
-#echo
+# echo
 
 Perform basic input validation and return the supplied parameters as the result. This method therefore suitable for testing and API availability checking purposes.
 
-##Parameters
+## Parameters
 
 Any JSON object.
 
-##Result
+## Result
 
 Same as parameters.
 
-##Examples
+## Examples
 
-###Request
+### Request
 
     POST https://api.archilogic.com/v1 HTTP/1.1
     Host: api.archilogic.com
@@ -39,7 +39,7 @@ Same as parameters.
       "id" : "abcd12345"
     }
 
-###Response
+### Response
 
     {
       "jsonrpc": "2.0",

@@ -9,7 +9,7 @@ middleRank: 4
 localRank: 1
 ---
 
-#Architectural Editor
+# Architectural Editor
 
 Learn how to use the Archilogic architectural editor.
 

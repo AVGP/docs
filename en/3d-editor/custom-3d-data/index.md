@@ -9,13 +9,13 @@ middleRank: 8
 localRank: 1
 ---
 
-#Custom 3d data
+# Custom 3d data
 
 **Uploading custom 3d data is available with an [Archilogic Professional subscription]({{site.path}}/en/platform/settings/subscription.html).**
 
 This category describes how to import your own 3d content and what you have to keep in mind to make it work.
 
-##General rules for exporting custom 3d objects
+## General rules for exporting custom 3d objects
 
 * Keep the **Polygon Count** low. Archilogic is entirely webbased. Please keep in mind that not everyone has a fast internet connection or a good graphics card. (150k Triangles per apartment is a good start)
 

@@ -8,7 +8,7 @@ meta: "Setting up and updating Archilogic dashboard settings only takes a few cl
 localRank: 4
 ---
 
-#Settings
+# Settings
 
 You can find the settings menu here: [http://spaces.archilogic.com/organization](http://spaces.archilogic.com/organization)
 

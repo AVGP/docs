@@ -9,12 +9,12 @@ middleRank: 5
 localRank: 1
 ---
 
-#Sharing and Embedding
+# Sharing and Embedding
 
 Learn how to share or embed your Archilogic model by taking a look at the tutorial video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kb9fuzeE9EM" frameborder="0" allowfullscreen></iframe>
 
-##Pure Viewer Mode
+## Pure Viewer Mode
 Learn how to use the pure viewer mode:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VjN4b0iJIk4" frameborder="0" allowfullscreen></iframe>

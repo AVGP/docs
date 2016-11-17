@@ -8,10 +8,10 @@ meta: "Learn how to get the most out of the interior feature in the Archilogic 3
 localRank: 3
 ---
 
-#Interior
+# Interior
 
 
-##Categories
+## Categories
 
 At the moment we have 12 different interior furniture categories.
 
@@ -56,9 +56,9 @@ Children
 ![Accessories Icon]({{site.path}}/assets/images/ui-category_accessories.svg){: .img-responsive}
 Accessories
 
-##Functionality
+## Functionality
 
-###Handling
+### Handling
 ![Interior Context Menu]({{site.path}}/assets/images/Basic-Interior.jpg){: .img-responsive}
 Adding a piece of furniture to a scene is easy. Simply drag and drop the furniture piece of choice from the library on the right in to the 3d model on the left. You can decide yourself where to drop the furniture piece. If you drop it on top of another one you'll be able to move the lower one while the one on top of it will move along.
 
@@ -76,7 +76,7 @@ The info button links to the website of the manufacturer of the furniture piece.
 Clicking on the button with the two rectangles duplicates the furniture object.  
 Clicking on the trash bin deletes the furniture piece from the scene.  
 
-###Grouping
+### Grouping
 
 Furniture pieces can be grouped together by selecting one single furniture piece first, press and hold the Shift key and then selecting another furniture piece.  
 This can be repeated for an arbitrary number of times. Once the furniture pieces are grouped together they can be moved and rotated together.

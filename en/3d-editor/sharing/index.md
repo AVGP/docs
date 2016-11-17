@@ -9,7 +9,7 @@ middleRank: 5
 localRank: 1
 ---
 
-#Sharing
+# Sharing
 
 Sharing your Archilogic model with a friend is very easy.  
 Click on the share button to open the share context menu.
@@ -17,7 +17,7 @@ Click on the share button to open the share context menu.
 
 The share menu allows you to share your content in several different ways, as a Google short link, as a QR-code or even as an iframe to embed it on a website.
 
-##Starting Options
+## Starting Options
 
 ![Starting Options in Share Menu]({{site.path}}/assets/images/Basic-Share-Starting-Options.jpg){: .img-responsive}
 You can customize the Archilogic content that you're going to share with someone.

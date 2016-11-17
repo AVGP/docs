@@ -9,7 +9,7 @@ middleRank: 6
 localRank: 1
 ---
 
-#Architecture
+# Architecture
 
 The topics in the architecture category cover the different architecture features.
 
@@ -18,7 +18,7 @@ The architecture menu does not only let you place walls, windows and doors, but 
 
 **Important: Existing architecture objects are only selectable if realistic lighting is switched off**
 
-##Architecture Objects
+## Architecture Objects
 Every object within the Archilogic architecture menu is parametric and therefore fully customizable.
 This is a list of every architecture object.
 

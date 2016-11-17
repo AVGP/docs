@@ -9,7 +9,7 @@ middleRank: 6
 localRank: 1
 ---
 
-#Upload your own company logo
+# Upload your own company logo
 
 Learn how to brand your Archilogic 3d models by uploading your own custom company logo.
 

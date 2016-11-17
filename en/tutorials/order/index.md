@@ -9,7 +9,7 @@ middleRank: 2
 localRank: 1
 ---
 
-#How to order models from Archilogic
+# How to order models from Archilogic
 
 Check out this tutorial video to learn how to order a 3d model from Archilogic.
 
