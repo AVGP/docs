@@ -4,47 +4,11 @@ host: localhost
 
 highlighter: rouge
 
-# set as an environment variable during deployment
-deployUrl: ''
-
 favicon: https://about.archilogic.com/wp-content/uploads/favicon-96x96.png
-
-# licence of the software
-#license: TODO
-#licenseUrl: TODO
 
 # list of additional links on the right of the top menu
 headerLinks:
   - linkName: About
     url: http://about.archilogic.com
-
-# list if additional links on the footer
-#footerLinks:
-  #- linkName: TODO
-    #url: TODO
-
-# google analytics
-#analytics:
-  #account: TODO
-  #domain: TODO
-
-# github buttons
-#githubButton:
-  #user: TODO
-  #repo: TODO
-
-# twitter buttons
-# TODO
-#twitter:
-  #enabled: true
-  #via:
-  #hash:
-  #account: Archilogic3D
-
-# facebook buttons
-# TODO
-#facebook:
-  #enabled: true
-  #profileUrl: https://www.facebook.com/achilogicag
 
 exclude: ['README.md', 'LICENSE', 'bower.json', 'Gemfile.lock', 'Gemfile']
