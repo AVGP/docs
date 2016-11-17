@@ -16,14 +16,14 @@ The handle with the four triangles is used to move the wall object around.
 The handle with the two bent arrows is used to rotate the object but also to increase or decrease the length of the wall.
 Above the second handle you can find the current length of the wall.
 
-![Wall Object]({{site.path}}/assets/images/Architecture-Wall-Object.jpg){: .img-responsive}
+![Wall Object]({{site.baseurl}}/assets/images/Architecture-Wall-Object.jpg){: .img-responsive}
 
 The wall object consists of three different parts. A front face, a back face and a baseboard.
 Each of these parts can be materialized or colored separately.
 
 The context menu on the right allows the user to further customize the wall.
 
-![Wall Context Menu]({{site.path}}/assets/images/Architecture-Wall-Menu.jpg){: .img-responsive}
+![Wall Context Menu]({{site.baseurl}}/assets/images/Architecture-Wall-Menu.jpg){: .img-responsive}
 
 * The standard value for the vertical position is 0 but it can be changed at will.
 
@@ -44,11 +44,11 @@ To revert this or editing a locked object you first have to open the architectur
 
 The handle for the door objects work similar than those of the wall objects. The handle with the four triangles is used to move the door around within the constraints of the wall. The handle with the two triangles is used to extend the size of the door to a maximum of 2 meters.
 
-![Door Object]({{site.path}}/assets/images/Architecture-Door-Object.jpg){: .img-responsive}
+![Door Object]({{site.baseurl}}/assets/images/Architecture-Door-Object.jpg){: .img-responsive}
 
 The context menu on the right allows the user to further customize the wall.
 
-![Door Context Menu]({{site.path}}/assets/images/Architecture-Door-Menu.jpg){: .img-responsive}
+![Door Context Menu]({{site.baseurl}}/assets/images/Architecture-Door-Menu.jpg){: .img-responsive}
 
 * The **Height** can be increased to a maximum of 4 meters, while the standard value is 2 meters.
 
@@ -77,11 +77,11 @@ To revert this or editing a locked object you first have to open the architectur
 
 The handle for the window objects work similar than those of the wall objects. The handle with the four triangles is used to move the window around within the constraints of the wall. The handle with the two triangles is used to extend the size of the window.
 
-![Window Object]({{site.path}}/assets/images/Architecture-Window-Object.jpg){: .img-responsive}
+![Window Object]({{site.baseurl}}/assets/images/Architecture-Window-Object.jpg){: .img-responsive}
 
 The context menu on the right allows the user to further customize the window.
 
-![Window Context Menu]({{site.path}}/assets/images/Architecture-Window-Menu.jpg){: .img-responsive}
+![Window Context Menu]({{site.baseurl}}/assets/images/Architecture-Window-Menu.jpg){: .img-responsive}
 
 * The **Vertical Position** determines on which height the window starts. The standard value is 0.8 meters, which means that the window starts 0.8 meters above ground.
 
@@ -93,7 +93,7 @@ The context menu on the right allows the user to further customize the window.
 
 The Window Ratio Menu allows for the creation of more complex and segmented windows.
 
-![Window Ratio Menu]({{site.path}}/assets/images/Architecture-Window-Ratio.jpg){: .img-responsive}
+![Window Ratio Menu]({{site.baseurl}}/assets/images/Architecture-Window-Ratio.jpg){: .img-responsive}
 
 The **Row** field controls how many rows the window has. Every number in the field stands for a row. If the first number is a 1 and the second a 2 then the second row is twice as high as the first row. Each number has to be separated by a colon.
 

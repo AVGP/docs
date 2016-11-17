@@ -17,7 +17,7 @@ By clicking on the **Start Free Trial** button you can start a free 30 day trial
 
 If you click on the "edit" link next to the number of users, you get to the [user menu](users.html) where you can invite additional user to your organization.
 
-![Subscription Menu]({{site.path}}/assets/images/Platform-Settings-Subscription.jpg){: .img-responsive}
+![Subscription Menu]({{site.baseurl}}/assets/images/Platform-Settings-Subscription.jpg){: .img-responsive}
 
 \*\) See the full 3D model pricing [here](https://about.archilogic.com/business/).
 

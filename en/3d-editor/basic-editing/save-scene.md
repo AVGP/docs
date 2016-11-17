@@ -10,7 +10,7 @@ localRank: 5
 
 # Save Scene  
 To save a scene click on the save button.  
-![Save Archilogic Scene]({{site.path}}/assets/images/Basic-Save-Scene.jpg){: .img-responsive}
+![Save Archilogic Scene]({{site.baseurl}}/assets/images/Basic-Save-Scene.jpg){: .img-responsive}
 
 ## Name  
 The name of the scene can be customized in here.  

@@ -10,7 +10,7 @@ localRank: 3
 # Floor Plan Perspective
 The floor plan perspective is a classic top down view which is ideal for getting an overview of your model and for placing furniture. As with every perspective the floor plan perspective has some unique mouse controls.
 
-![Floor Plan Perspective]({{site.path}}/assets/images/Navigation-Floor-Plan-Perspective.jpg){: .img-responsive}
+![Floor Plan Perspective]({{site.baseurl}}/assets/images/Navigation-Floor-Plan-Perspective.jpg){: .img-responsive}
 
 ## Controls
 

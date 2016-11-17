@@ -8,13 +8,13 @@
     {% endcomment %}
     {% for p in sortedByMiddle %}
       {% if p.url contains topPath and p.middleRank %}
-        <a href={{site.path}}{{p.url}} class="list-group-item {% if p.url == page.url %}active{% endif %} ">
+        <a href={{site.baseurl}}{{p.url}} class="list-group-item {% if p.url == page.url %}active{% endif %} ">
           <strong>{{p.linkName}}</strong>
         </a>
         {% if p.url contains middlePath %}
           {% for q in sortedByLocal %}
             {% if q.url contains topPath and q.url contains middlePath and q.localRank and q != p %}
-              <a href={{site.path}}{{q.url}} class="list-group-item indented-list-group-item {% if q.url == page.url %}active{% endif %} ">
+              <a href={{site.baseurl}}{{q.url}} class="list-group-item indented-list-group-item {% if q.url == page.url %}active{% endif %} ">
                 {{q.linkName}}
               </a>
             {% endif %}

@@ -14,7 +14,7 @@ If you select a material there are two buttons right beneath the selected materi
 By clicking on the **Custom** button, you swap from the Archilogic material library to the advanced material menu.
 The advanced material menu gives you a lot more options to customize a material and even lets you upload your own textures to Archilogic.
 
-![Different Materials]({{site.path}}/assets/images/Materials-Menu-Advanced.jpg){: .img-responsive}
+![Different Materials]({{site.baseurl}}/assets/images/Materials-Menu-Advanced.jpg){: .img-responsive}
 
 * The **Diffuse Color** widget lets you change the actual color of the material. You can either change the color by clicking into the color field or by entering a hexadecimal color code. If the diffuse color value is *# ffffff* the material is either completely white or it uses the color of the diffuse texture without any colorations.
 

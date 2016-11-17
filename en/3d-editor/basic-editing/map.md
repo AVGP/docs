@@ -10,8 +10,8 @@ localRank: 4
 
 # Map  
 Clicking the map button opens Google maps inside the context menu which shows the location of the building in this scene.  
-![Map Menu]({{site.path}}/assets/images/Basic-Map-Menu.jpg){: .img-responsive}
+![Map Menu]({{site.baseurl}}/assets/images/Basic-Map-Menu.jpg){: .img-responsive}
 
 The map button only shows up if the active scene has a valid address.  
 To enter or edit an address go to the save scene menu and fill in the field "Adress:"  
-![Save Address]({{site.path}}/assets/images/Basic-Map-Address.jpg){: .img-responsive}  
+![Save Address]({{site.baseurl}}/assets/images/Basic-Map-Address.jpg){: .img-responsive}

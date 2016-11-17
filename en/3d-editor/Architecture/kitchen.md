@@ -14,11 +14,11 @@ Like most other architectural objects the kitchen object has two handles. The fi
 
 The kitchen object consists of several different pieces of which the cabinets, the counter and the oven can be materialized separately.
 
-![Kitchen Object]({{site.path}}/assets/images/Architecture-Kitchen-Object.jpg){: .img-responsive}
+![Kitchen Object]({{site.baseurl}}/assets/images/Architecture-Kitchen-Object.jpg){: .img-responsive}
 
 The kitchen object is probably the most complex of all the architecture objects as it allows the most adjustments. Nevertheless it is relatively easy to achieve the desired results.
 
-![Kitchen Menu]({{site.path}}/assets/images/Architecture-Kitchen-Menu.jpg){: .img-responsive}
+![Kitchen Menu]({{site.baseurl}}/assets/images/Architecture-Kitchen-Menu.jpg){: .img-responsive}
 
 * The **Height** determines how high the entire kitchen is. The standard value is 2.4 meters.
 

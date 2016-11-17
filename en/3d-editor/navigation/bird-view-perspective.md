@@ -10,7 +10,7 @@ localRank: 4
 # Bird View Perspective
 The bird view perspective is a tilted view which is ideal for getting an overview of your model and for placing furniture. As with every perspective the bird view perspective has some unique mouse controls.
 
-![Bird View Perspective]({{site.path}}/assets/images/Navigation-Bird-View-Perspective.jpg){: .img-responsive}
+![Bird View Perspective]({{site.baseurl}}/assets/images/Navigation-Bird-View-Perspective.jpg){: .img-responsive}
 
 ## Controls
 

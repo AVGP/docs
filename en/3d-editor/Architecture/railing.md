@@ -12,11 +12,11 @@ localRank: 9
 
 The railing object handles mostly the same as the closet and the railing object, but has some object specific options. The object has two handles. The first handle with the four triangles is used to move the object around while the second handle with the two bent arrows is to rotate or enlarge it.
 
-![Railing Object]({{site.path}}/assets/images/Architecture-Railing-Object.jpg){: .img-responsive}
+![Railing Object]({{site.baseurl}}/assets/images/Architecture-Railing-Object.jpg){: .img-responsive}
 
 If the railing is selected you can find some more options to customize the railing object in the context menu on the right.
 
-![Railing Menu]({{site.path}}/assets/images/Architecture-Railing-Menu.jpg){: .img-responsive}
+![Railing Menu]({{site.baseurl}}/assets/images/Architecture-Railing-Menu.jpg){: .img-responsive}
 
 * The **Vertical Position** determines how far the railing is above the ground.
 

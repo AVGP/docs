@@ -13,13 +13,13 @@ localRank: 1
 
 Sharing your Archilogic model with a friend is very easy.  
 Click on the share button to open the share context menu.
-![Share Menu Button]({{site.path}}/assets/images/Basic-Share-Button.jpg){: .img-responsive}
+![Share Menu Button]({{site.baseurl}}/assets/images/Basic-Share-Button.jpg){: .img-responsive}
 
 The share menu allows you to share your content in several different ways, as a Google short link, as a QR-code or even as an iframe to embed it on a website.
 
 ## Starting Options
 
-![Starting Options in Share Menu]({{site.path}}/assets/images/Basic-Share-Starting-Options.jpg){: .img-responsive}
+![Starting Options in Share Menu]({{site.baseurl}}/assets/images/Basic-Share-Starting-Options.jpg){: .img-responsive}
 You can customize the Archilogic content that you're going to share with someone.
 
 1. Window Mode
@@ -47,10 +47,10 @@ You can customize the Archilogic content that you're going to share with someone
 
 ## Google Shortlink
 
-![Google Shortlink]({{site.path}}/assets/images/Basic-Share-Google-Shortlink.jpg){: .img-responsive}
+![Google Shortlink]({{site.baseurl}}/assets/images/Basic-Share-Google-Shortlink.jpg){: .img-responsive}
 The Google shortlink can be used to share your model by email or chat. The link changes depending on the options you select.
 
 ## QR-Code
 
-![QR Code]({{site.path}}/assets/images/Basic-Share-QRCode.jpg){: .img-responsive}
+![QR Code]({{site.baseurl}}/assets/images/Basic-Share-QRCode.jpg){: .img-responsive}
 Open your model on your mobile phone by taking a picture of the QR-Code. You need a thirdparty QR-Code reader app on your mobile phone for this to work. The QR-Code changes depending on the options you select.

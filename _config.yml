@@ -1,14 +1,15 @@
 title: "Archilogic Documentation"
 
-host: localhost
-
-highlighter: rouge
+host: localhost 
+baseurl: docs
 
 favicon: https://about.archilogic.com/wp-content/uploads/favicon-96x96.png
+
+highlighter: rouge
 
 # list of additional links on the right of the top menu
 headerLinks:
   - linkName: About
     url: http://about.archilogic.com
 
-exclude: ['README.md', 'LICENSE', 'bower.json', 'Gemfile.lock', 'Gemfile']
+exclude: ['README.md', 'LICENSE', 'Gemfile.lock', 'Gemfile']

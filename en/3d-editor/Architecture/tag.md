@@ -13,11 +13,11 @@ localRank: 10
 The tag object is a fairly simple object to name certain things within a scene. It can be used to name rooms or communicate certain things or to make comments.
 It has a single handle that can be used to move it around in the scene.
 
-![Tag Object]({{site.path}}/assets/images/Architecture-Tag-Object.jpg){: .img-responsive}
+![Tag Object]({{site.baseurl}}/assets/images/Architecture-Tag-Object.jpg){: .img-responsive}
 
 The context menu on the right allows for some additional adjustments.
 
-![Tag Menu]({{site.path}}/assets/images/Architecture-Tag-Menu.jpg){: .img-responsive}
+![Tag Menu]({{site.baseurl}}/assets/images/Architecture-Tag-Menu.jpg){: .img-responsive}
 
 * The text in the **Title** field is what will be visible in the scene. The title field stores a maximum of 40 characters.
 

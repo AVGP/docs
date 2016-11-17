@@ -23,42 +23,42 @@ Every object within the Archilogic architecture menu is parametric and therefore
 This is a list of every architecture object.
 
 Walls
-[![Wall Icon]({{site.path}}/assets/images/architecture-icon-wall.png){: .img-responsive}](wall.html)
+[![Wall Icon]({{site.baseurl}}/assets/images/architecture-icon-wall.png){: .img-responsive}](wall.html)
 
 Door
 (The door object only works together with a wall object)
-[![Door Icon]({{site.path}}/assets/images/architecture-icon-door.png){: .img-responsive}](wall.html)
+[![Door Icon]({{site.baseurl}}/assets/images/architecture-icon-door.png){: .img-responsive}](wall.html)
 
 Window
 (The window object only works together with a wall object)
-[![Window Icon]({{site.path}}/assets/images/architecture-icon-window.png){: .img-responsive}](wall.html)
+[![Window Icon]({{site.baseurl}}/assets/images/architecture-icon-window.png){: .img-responsive}](wall.html)
 
 Floor
-[![Floor Icon]({{site.path}}/assets/images/architecture-icon-floor.png){: .img-responsive}](floor.html)
+[![Floor Icon]({{site.baseurl}}/assets/images/architecture-icon-floor.png){: .img-responsive}](floor.html)
 
 Polyfloor
-[![Polyfloor Icon]({{site.path}}/assets/images/architecture-icon-polyfloor.png){: .img-responsive}](floor.html)
+[![Polyfloor Icon]({{site.baseurl}}/assets/images/architecture-icon-polyfloor.png){: .img-responsive}](floor.html)
 
 Box
-[![Box Icon]({{site.path}}/assets/images/architecture-icon-box.png){: .img-responsive}](box.html)
+[![Box Icon]({{site.baseurl}}/assets/images/architecture-icon-box.png){: .img-responsive}](box.html)
 
 Polybox
-[![Polybox Icon]({{site.path}}/assets/images/architecture-icon-polybox.png){: .img-responsive}](box.html)
+[![Polybox Icon]({{site.baseurl}}/assets/images/architecture-icon-polybox.png){: .img-responsive}](box.html)
 
 Stairs
 [![Stairs Icon](https://docs.google.com/drawings/d/14dNRn8XPJuFvpURhIMK49ig3Zb61ApkfCUXGuatD31M/pub?w=431&h=377){: .img-responsive}](stairs.html)
 
 Kitchen
-[![Kitchen Icon]({{site.path}}/assets/images/architecture-icon-kitchen.png){: .img-responsive}](kitchen.html)
+[![Kitchen Icon]({{site.baseurl}}/assets/images/architecture-icon-kitchen.png){: .img-responsive}](kitchen.html)
 
 Closet
-[![Closet Icon]({{site.path}}/assets/images/architecture-icon-closet.png){: .img-responsive}](closet.html)
+[![Closet Icon]({{site.baseurl}}/assets/images/architecture-icon-closet.png){: .img-responsive}](closet.html)
 
 Curtain
-[![Curtain Icon]({{site.path}}/assets/images/architecture-icon-curtain.png){: .img-responsive}](curtain.html)
+[![Curtain Icon]({{site.baseurl}}/assets/images/architecture-icon-curtain.png){: .img-responsive}](curtain.html)
 
 Railing
-[![Railing Icon]({{site.path}}/assets/images/architecture-icon-railing.png){: .img-responsive}](railing.html)
+[![Railing Icon]({{site.baseurl}}/assets/images/architecture-icon-railing.png){: .img-responsive}](railing.html)
 
 Tag
-[![Tag Icon]({{site.path}}/assets/images/architecture-icon-tag.png){: .img-responsive}](tag.html)
+[![Tag Icon]({{site.baseurl}}/assets/images/architecture-icon-tag.png){: .img-responsive}](tag.html)

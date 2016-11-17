@@ -12,4 +12,4 @@ localRank: 2
 The profile button leads you to your personal profile menu within the Archilogic 3d editor.
 Here you can log out, order a new model or change the password for your Account.
 
-![Profile]({{site.path}}/assets/images/Basic-Profile.jpg){: .img-responsive}
+![Profile]({{site.baseurl}}/assets/images/Basic-Profile.jpg){: .img-responsive}

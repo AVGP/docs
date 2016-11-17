@@ -24,4 +24,4 @@ In the settings menu you're able to change your account information.
 
 * If you've ordered a 3d model from Archilogic or are a Plus or Professional subscriber you can also edit your credit card information here.
 
-![Settings Menu]({{site.path}}/assets/images/Platform-Settings-Settings.jpg){: .img-responsive}
+![Settings Menu]({{site.baseurl}}/assets/images/Platform-Settings-Settings.jpg){: .img-responsive}

@@ -10,7 +10,7 @@ localRank: 5
 # First Person Perspective
 The first person perspective lets you explore your model from the inside and grants you a first impression on how big the spaces really are or how well a new piece of furniture would look in your apartment. As with every perspective the first person perspective has its own set of controls.
 
-![First Person Perspective]({{site.path}}/assets/images/Navigation-First-Person-Perspective.jpg){: .img-responsive}
+![First Person Perspective]({{site.baseurl}}/assets/images/Navigation-First-Person-Perspective.jpg){: .img-responsive}
 
 ## Controls
 

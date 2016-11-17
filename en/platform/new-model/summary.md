@@ -12,7 +12,7 @@ localRank: 3
 
 After clicking on the **Add to Order** Button you come to the order summary. Here you can check the order name, address and room height again and edit it if necessary. You can also add another 3d model to your order.
 
-![Add Model To Order Button]({{site.path}}/assets/images/Platform-NewModel-Order-Summary.jpg){: .img-responsive}
+![Add Model To Order Button]({{site.baseurl}}/assets/images/Platform-NewModel-Order-Summary.jpg){: .img-responsive}
 
 * To **edit the order** click on the pencil icon. Clicking on the pencil icon leads you back to the order form.
 

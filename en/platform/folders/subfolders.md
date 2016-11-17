@@ -15,7 +15,7 @@ You can distinguish regular folders from folders with subfolders by taking a loo
 If there is a **[+]** in front of the folder name it means that there is at least one subfolder nested within this folder.
 By clicking on the folder name with the **[+]** in front of the name you can expand it and see all the folder nested within.
 
-![Subfolders]({{site.path}}/assets/images/Platform-Folder-List-Subfolders.jpg){: .img-responsive}
+![Subfolders]({{site.baseurl}}/assets/images/Platform-Folder-List-Subfolders.jpg){: .img-responsive}
 
 ## How to create a subfolder:
 

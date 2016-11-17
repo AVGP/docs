@@ -12,11 +12,11 @@ localRank: 7
 
 The curtain object handles mostly the same as the closet and the railing object, but has some object specific options. The object has two handles. The first handle with the four triangles is used to move the object around while the second handle with the two bent arrows is to rotate or enlarge it.
 
-![Curtain Object]({{site.path}}/assets/images/Architecture-Curtain-Object.jpg){: .img-responsive}
+![Curtain Object]({{site.baseurl}}/assets/images/Architecture-Curtain-Object.jpg){: .img-responsive}
 
 If the curtain is selected you can find some more options to customize the curtain object in the context menu on the right.
 
-![Curtain Menu]({{site.path}}/assets/images/Architecture-Curtain-Menu.jpg){: .img-responsive}
+![Curtain Menu]({{site.baseurl}}/assets/images/Architecture-Curtain-Menu.jpg){: .img-responsive}
 
 * The **Vertical Position** determines how far the curtain is above the ground.
 

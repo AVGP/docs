@@ -13,7 +13,7 @@ localRank: 1
 
 To open the profile settings menu click on the user icon in the top right corner of the screen.
 
-![Profile Settings Menu]({{site.path}}/assets/images/Platform-Settings-Menu.jpg){: .img-responsive}
+![Profile Settings Menu]({{site.baseurl}}/assets/images/Platform-Settings-Menu.jpg){: .img-responsive}
 
 With the profile settings menu open you have access to the following menus:
 

@@ -31,26 +31,26 @@ The main menu gives you access to your personal menu, to our furniture library, 
 ## Overview  
 ![Overview](https://docs.google.com/drawings/d/1V846WbE1hw6rV2ptVI72vj28RComDrccY_lzyo4pA9Q/pub?w=1440&h=721){: .img-responsive}
 
-1 - [Camera Bookmarks]({{site.path}}/en/3d-editor/navigation/camera-bookmarks.html)
+1 - [Camera Bookmarks]({{site.baseurl}}/en/3d-editor/navigation/camera-bookmarks.html)
 
-2 - [Floor Plan View]({{site.path}}/en/3d-editor/navigation/floor-plan-perspective.html)
+2 - [Floor Plan View]({{site.baseurl}}/en/3d-editor/navigation/floor-plan-perspective.html)
 
-3 - [Bird Eye Perspective]({{site.path}}/en/3d-editor/navigation/bird-view-perspective.html)
+3 - [Bird Eye Perspective]({{site.baseurl}}/en/3d-editor/navigation/bird-view-perspective.html)
 
-4 - [First Person Perspective]({{site.path}}/en/3d-editor/navigation/first-person-perspective.html)
+4 - [First Person Perspective]({{site.baseurl}}/en/3d-editor/navigation/first-person-perspective.html)
 
-5 - [My Profile]({{site.path}}/en/3d-editor/basic-editing/my-profile.html)
+5 - [My Profile]({{site.baseurl}}/en/3d-editor/basic-editing/my-profile.html)
 
-6 - [Archilogic Dashboard]({{site.path}}/en/platform/introduction/index.html)
+6 - [Archilogic Dashboard]({{site.baseurl}}/en/platform/introduction/index.html)
 
-7 - [Interior]({{site.path}}/en/3d-editor/basic-editing/interior.html)
+7 - [Interior]({{site.baseurl}}/en/3d-editor/basic-editing/interior.html)
 
-8 - [Map]({{site.path}}/en/3d-editor/basic-editing/map.html)
+8 - [Map]({{site.baseurl}}/en/3d-editor/basic-editing/map.html)
 
-9 - [Save Scene]({{site.path}}/en/3d-editor/basic-editing/save-scene.html)
+9 - [Save Scene]({{site.baseurl}}/en/3d-editor/basic-editing/save-scene.html)
 
-10 - [Share Model]({{site.path}}/en/3d-editor/basic-editing/share.html)
+10 - [Share Model]({{site.baseurl}}/en/3d-editor/basic-editing/share.html)
 
-11 - [Archilogic Public Documentation]({{site.path}}/index.html)
+11 - [Archilogic Public Documentation]({{site.baseurl}}/index.html)
 
-12 - [Full Screen Mode]({{site.path}}/en/3d-editor/basic-editing/fullscreen.html)
+12 - [Full Screen Mode]({{site.baseurl}}/en/3d-editor/basic-editing/fullscreen.html)

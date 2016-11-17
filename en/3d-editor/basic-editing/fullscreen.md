@@ -14,9 +14,9 @@ Press the button on the lower right corner of the Archilogic window to enter the
 Fullscreen is available from both, the editor window mode and the viewer window mode.
 
 Editor mode fullscreen button:
-![Fullscreen Button in Editor Mode]({{site.path}}/assets/images/Basic-Fullscreen-EditorMode.jpg){: .img-responsive}
+![Fullscreen Button in Editor Mode]({{site.baseurl}}/assets/images/Basic-Fullscreen-EditorMode.jpg){: .img-responsive}
 
 Viewer mode fullscreen button:
-![Fullscreen Button in Viewer Mode]({{site.path}}/assets/images/Basic-Fullscreen-ViewerMode.jpg){: .img-responsive}
+![Fullscreen Button in Viewer Mode]({{site.baseurl}}/assets/images/Basic-Fullscreen-ViewerMode.jpg){: .img-responsive}
 
 If you're using the Archilogic viewer window mode, the main menu only becomes available to you if you switch to fullscreen.

@@ -23,4 +23,4 @@ Please keep in mind that each user you add to your organization has the same sub
 * Click on the **edit** button to edit the name and email address of your Archilogic account. <br>
 **If you change the name of your account, keep in mind to use your new user name the next time you log into Archilogic**
 
-![Users Menu]({{site.path}}/assets/images/Platform-Settings-Users.jpg){: .img-responsive}
+![Users Menu]({{site.baseurl}}/assets/images/Platform-Settings-Users.jpg){: .img-responsive}

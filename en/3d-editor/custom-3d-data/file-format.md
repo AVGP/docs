@@ -10,7 +10,7 @@ localRank: 3
 
 # File Format
 
-**Importing custom 3d data is available with an [Archilogic Professional subscription]({{site.path}}/en/platform/settings/subscription.html).**
+**Importing custom 3d data is available with an [Archilogic Professional subscription]({{site.baseurl}}/en/platform/settings/subscription.html).**
 
 With an Archilogic Professional subscription you're able to import your own custom 3d content to Archilogic.
 At the moment the Wavefront **.obj** is the only supported file format for importing custom 3d models.
@@ -26,4 +26,4 @@ Should the 3d object come with texture maps then you have to make sure that the 
 If the links in the .mtl file are not pointing to the correct location the texture maps will not be associated with the materials, even if they're uploaded together.
 In this case you can either use a text editor to open the .mtl file and adjust the links or associate the texture maps separately wit the respective material in the material menu.
 
-![Adjusting the .mtl file]({{site.path}}/assets/images/3D-Import-MTL.jpg){: .img-responsive}
+![Adjusting the .mtl file]({{site.baseurl}}/assets/images/3D-Import-MTL.jpg){: .img-responsive}

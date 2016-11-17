@@ -11,7 +11,7 @@ localRank: 1
 
 # Custom 3d data
 
-**Uploading custom 3d data is available with an [Archilogic Professional subscription]({{site.path}}/en/platform/settings/subscription.html).**
+**Uploading custom 3d data is available with an [Archilogic Professional subscription]({{site.baseurl}}/en/platform/settings/subscription.html).**
 
 This category describes how to import your own 3d content and what you have to keep in mind to make it work.
 

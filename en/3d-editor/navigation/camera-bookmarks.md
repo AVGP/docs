@@ -15,16 +15,16 @@ With camera bookmarks Archilogic provides a tool which makes it extremely easy t
 </div>
 
 ## Interface
-![Camera Bookmarks]({{site.path}}/assets/images/Navigation-Camera-Bookmarks-Overview.jpg){: .img-responsive}
+![Camera Bookmarks]({{site.baseurl}}/assets/images/Navigation-Camera-Bookmarks-Overview.jpg){: .img-responsive}
 The camera bookmarks interface contains several bookmarks and additional buttons to add remove, clone or update said bookmarks.
 
-![Bookmarks]({{site.path}}/assets/images/Navigation-Camera-Bookmarks.png){: .img-responsive}
+![Bookmarks]({{site.baseurl}}/assets/images/Navigation-Camera-Bookmarks.png){: .img-responsive}
 Click on the camera button to open and close the camera bookmarks menu.
 
-![Add Bookmark]({{site.path}}/assets/images/Navigation-Camera-Bookmarks-Add.png){: .img-responsive}
+![Add Bookmark]({{site.baseurl}}/assets/images/Navigation-Camera-Bookmarks-Add.png){: .img-responsive}
 Click on the + button to add a new camera bookmark. The current position of the camera will be used to create the new bookmark.
 
-![Bookmark]({{site.path}}/assets/images/Navigation-Camera-Bookmarks-Bookmark.png){: .img-responsive}
+![Bookmark]({{site.baseurl}}/assets/images/Navigation-Camera-Bookmarks-Bookmark.png){: .img-responsive}
 Once you clicked on the + button a new camera bookmark shows up.
 
 Click and drag the three stripes on the left to change the sequence of the camera bookmark.
@@ -39,5 +39,5 @@ Click on the two squares to duplicate a camera bookmark. This is useful if you w
 
 Click on the trashcan to delete the current camera bookmark.
 
-![Play Presentation]({{site.path}}/assets/images/Navigation-Camera-Bookmarks-Start.png){: .img-responsive}
+![Play Presentation]({{site.baseurl}}/assets/images/Navigation-Camera-Bookmarks-Start.png){: .img-responsive}
 Click the Play button to start the presentation. The camera will move between the different camera bookmarks that you set up beforehand.

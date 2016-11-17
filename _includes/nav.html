@@ -7,8 +7,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <span class="navbar-brand"><img id="al-logo" src="{{site.path}}/assets/images/gradient_logo_2_300px-height.png"></span>
-      <a class="navbar-brand" href="{{site.path}}/index.html">
+      <span class="navbar-brand"><img id="al-logo" src="{{site.baseurl}}/assets/images/gradient_logo_2_300px-height.png"></span>
+      <a class="navbar-brand" href="{{site.baseurl}}/index.html">
         {{site.name}}
       </a>
     </div>
@@ -22,7 +22,7 @@
                 `topPath` comes from `_includes/path-fragments.html`
             {% endcomment %}
             <li {% if p.url contains topPath %}class="active"{% endif %}>
-              <a href="{{site.path}}{{p.linkTo}}">{{p.linkName}}</a>
+              <a href="{{site.baseurl}}{{p.linkTo}}">{{p.linkName}}</a>
             </li>
           {% endif %}
         {% endfor %}

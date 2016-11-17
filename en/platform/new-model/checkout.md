@@ -18,4 +18,4 @@ By clicking the "Checkout" button you get to the checkout overview. Here you can
 
 * Click on the **Buy** button once you made sure that all the order details are correct.
 
-![Checkout To Buy An Archilogic 3d Model]({{site.path}}/assets/images/Platform-NewModel-Order-Checkout.jpg){: .img-responsive}
+![Checkout To Buy An Archilogic 3d Model]({{site.baseurl}}/assets/images/Platform-NewModel-Order-Checkout.jpg){: .img-responsive}

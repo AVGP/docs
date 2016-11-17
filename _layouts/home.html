@@ -7,7 +7,7 @@ layout: default
   {% for p in sortedPages %}
     {% if p.topRank %}
       <h1>
-        <a href={{site.path}}{{p.linkTo}}>{{p.linkName}}</a>
+        <a href={{site.baseurl}}{{p.linkTo}}>{{p.linkName}}</a>
       </h1>
     {% endif %}
   {% endfor %}

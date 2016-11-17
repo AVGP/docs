@@ -10,13 +10,13 @@ localRank: 3
 
 # Floors
 
-![Floor Object]({{site.path}}/assets/images/Architecture-Floor-Object.jpg){: .img-responsive}
+![Floor Object]({{site.baseurl}}/assets/images/Architecture-Floor-Object.jpg){: .img-responsive}
 
 The floor object is a relatively simple object that consists of three parts. The floor, the side and the ceiling. Each of these parts can be materialized separately. The floor object has two handles, one to move the object around and one to increase the size of the object.
 
 # Polyfloors
 
-![Polyfloor Object]({{site.path}}/assets/images/Architecture-Polyfloor-Object.jpg){: .img-responsive}
+![Polyfloor Object]({{site.baseurl}}/assets/images/Architecture-Polyfloor-Object.jpg){: .img-responsive}
 
 The polyfloor object is similar to the regular floor object but has some additional features. Like the regular floor objects it consists of three different parts, the floor, the side and the ceiling. Each of these parts can be materialized separately.
 
@@ -35,7 +35,7 @@ Ceilings in Archilogic can be seen while the camera is inside the model but are 
 
 The ceiling is currently a part of the floor object.
 
-![Ceiling Menu]({{site.path}}/assets/images/Architecture-Floor-Ceiling-Menu.jpg){: .img-responsive}
+![Ceiling Menu]({{site.baseurl}}/assets/images/Architecture-Floor-Ceiling-Menu.jpg){: .img-responsive}
 
 * The **Has Ceiling** switch controls whether there is a ceiling or not. 1 means there is a ceiling while 0 means that there is none.
 
