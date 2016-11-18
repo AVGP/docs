@@ -139,8 +139,8 @@ Content-Type: application/json
       "params" : {
         "jobId" : "d394jnd8",
         "completed": true,
-        "viewer": "https://beta.archilogic.com/embed/7yMgFh",
-        "editor": "https://beta.archilogic.com/7yMgFh"
+        "viewer": "https://spaces.archilogic.com/3d/!f67ffde0-278e-11e4-9f8c-7dda0d61ae4a?mode=view",
+        "editor": "https://spaces.archilogic.com/3d/!f67ffde0-278e-11e4-9f8c-7dda0d61ae4a"
       }
     }
 
