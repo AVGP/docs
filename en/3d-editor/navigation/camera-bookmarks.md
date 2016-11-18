@@ -11,7 +11,7 @@ localRank: 2
 With camera bookmarks Archilogic provides a tool which makes it extremely easy to create quick and engaging animations within seconds. By using camera bookmarks you can choose yourself which details of a 3d model are important and need to be showcased and which not. Click on the full screen button to adjust the camera bookmarks of the model below.
 
 <div class="embed-responsive embed-responsive-4by3" style="margin-bottom: 10px">
-  <iframe src="http://beta.archilogic.com/fhK6cQ?mode=view&main-menu=interior&view-menu=camera-bookmarks&presentation=loop" frameBorder="0" onmousewheel="false" allowfullscreen mozallowfullscreen webkitallowfullscreen></iframe>
+  <iframe src="https://beta.archilogic.com/fhK6cQ?mode=view&main-menu=interior&view-menu=camera-bookmarks&presentation=loop" frameBorder="0" onmousewheel="false" allowfullscreen mozallowfullscreen webkitallowfullscreen></iframe>
 </div>
 
 ## Interface

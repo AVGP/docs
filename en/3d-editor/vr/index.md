@@ -25,7 +25,7 @@ WebVR also offers a solid experience on mobile, desktop computers and VR headset
 ![Example image of the VR button on a mobile device]({{site.baseurl}}/assets/images/VR-Button.jpg){: .img-responsive}
 
 ## 3. Compatibility with VR headsets:
-WebVR has evolved in the past few months to meet the needs of new VR hardware (all the new VR headsets coming on the market). Right now Archilogic supports Google Tango[Google Tango](http://docs.archilogic.com/en/3d-editor/vr/vr-google-tango.html) and [Google Cardboard](https://about.archilogic.com/blog/vr-support-google-cardboard-v2/), with Oculus Rift and HTC Vive to follow soon.
+WebVR has evolved in the past few months to meet the needs of new VR hardware (all the new VR headsets coming on the market). Right now Archilogic supports Google Tango[Google Tango](https://docs.archilogic.com/en/3d-editor/vr/vr-google-tango.html) and [Google Cardboard](https://about.archilogic.com/blog/vr-support-google-cardboard-v2/), with Oculus Rift and HTC Vive to follow soon.
 
 ## 4. Why is Archilogic using WebVR
 Archilogic is making applications in WebGL because it allows each of our 3D interactive models to provide a VR experience. Click on the VR button in a model and you are ready to experience an office, an apartment or any other type of space in virtual reality!

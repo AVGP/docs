@@ -10,7 +10,7 @@ localRank: 2
 
 # Users
 
-You can find the users menu here: [http://spaces.archilogic.com/users](http://spaces.archilogic.com/users)
+You can find the users menu here: [https://spaces.archilogic.com/users](http://spaces.archilogic.com/users)
 
 In the users menu you can add additional users to your organization. The number of users you can add to your organization depends on the type of subscription you have.
 Each user of the organization can edit the models or folders of that organization.

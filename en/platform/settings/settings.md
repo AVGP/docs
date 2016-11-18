@@ -10,7 +10,7 @@ localRank: 4
 
 # Settings
 
-You can find the settings menu here: [http://spaces.archilogic.com/organization](http://spaces.archilogic.com/organization)
+You can find the settings menu here: [https://spaces.archilogic.com/organization](http://spaces.archilogic.com/organization)
 
 In the settings menu you're able to change your account information.
 

@@ -29,7 +29,7 @@ This overview should give you all the necessary information to use our API
 
 * Request and response message format is **JSON** (Content-Type: application/json)
 
-* Remote call protocol is **JSON–RPC 2.0** (http://www.jsonrpc.org/specification)
+* Remote call protocol is **JSON–RPC 2.0** (https://www.jsonrpc.org/specification)
 
 * Each message property has a **data type** specified in square brackets after property name (e.g. +[String]+)
 

@@ -94,16 +94,16 @@ Content-Type: application/json
       "params" : {
         "apiKey": "5o2y9yuf94uqoo8oir2tsj18wjrqtrpeuo8u3gws",
         "jobId": "d394jnd8",
-        "callback": "http://yourcompany.com/api?token=6k3n278i2ndibwj3",
+        "callback": "https://yourcompany.com/api?token=6k3n278i2ndibwj3",
         "timeframe": 72,
         "property": {
           "files": [
-            "http://programmer-art.org/media/screenshots/3d-fractal-generator/fractal5.png",
-            "http://www.fractalsciencekit.com/fractals/large/Fractal-Mobius-Dragon-IFS-10.jpg",
-            "http://mentationaway.com/wp-content/uploads/2010/08/fractal.jpg",
-            "http://www.utexas.edu/ogs/pdn/pdf/format_guidelines-m.pdf"
+            "https://programmer-art.org/media/screenshots/3d-fractal-generator/fractal5.png",
+            "https://www.fractalsciencekit.com/fractals/large/Fractal-Mobius-Dragon-IFS-10.jpg",
+            "https://mentationaway.com/wp-content/uploads/2010/08/fractal.jpg",
+            "https://www.utexas.edu/ogs/pdn/pdf/format_guidelines-m.pdf"
           ],
-          "website": "http://yourcompany.com/property-name",
+          "website": "https://yourcompany.com/property-name",
           "address": "Random Avenue 123, 98765 Underwaterville, Atlantis",
           "title" : "Test",
           "description": "This is an property description text",
@@ -130,7 +130,7 @@ Content-Type: application/json
 
 ### Callback Request on success
 
-    POST http://yourcompany.com/api?token=6k3n278i2ndibwj3
+    POST https://yourcompany.com/api?token=6k3n278i2ndibwj3
     Content-Type: application/json
 
     {
@@ -139,14 +139,14 @@ Content-Type: application/json
       "params" : {
         "jobId" : "d394jnd8",
         "completed": true,
-        "viewer": "http://beta.archilogic.com/embed/7yMgFh",
-        "editor": "http://beta.archilogic.com/7yMgFh"
+        "viewer": "https://beta.archilogic.com/embed/7yMgFh",
+        "editor": "https://beta.archilogic.com/7yMgFh"
       }
     }
 
 ### Callback Request on failure
 
-    POST http://yourcompany.com/api?token=6k3n278i2ndibwj3
+    POST https://yourcompany.com/api?token=6k3n278i2ndibwj3
     Content-Type: application/json
 
     {
