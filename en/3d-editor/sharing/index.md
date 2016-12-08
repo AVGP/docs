@@ -35,7 +35,11 @@ You can customize the Archilogic content that you're going to share with someone
 
 3. Viewport Menu
 
-    * ***WIP Behavior in the client is confusing at the moment.***
+    * **Hidden** Neither the Camera Bookmarks menu nor the Levels menu is active when hidden is selected from the drop down menu.
+
+    * **Camera Bookmarks** The Camera Bookmarks menu is active by selecting this option. This only has an effect while in editor mode and not in viewer mode as the menu will not be accessible in the latter.
+
+    * **Levels** The Levels menu is active by selecting this option. This only has an effect while in editor mode and not in viewer mode as the menu will not be accessible in the latter.
 
 4. Presentation
 
