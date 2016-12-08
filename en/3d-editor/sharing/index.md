@@ -49,6 +49,15 @@ You can customize the Archilogic content that you're going to share with someone
 
     * **No Presentation:** The presentation will not be started when someone clicks on the link or looks at the iframe. The presentation has to be started manually by clicking on the camera bookmarks button and then on the start presentation button.
 
+4. Editable
+
+    * The **Editable** checkbox only has an effect on the behavior of the user interface if you choose the viewer mode. Clicking on the full screen button in the lower right corner of the screen when in Viewer mode will switch into full screen without showing the main menu on the right side if the checkbox is unchecked. It is thus not possible to edit the model in Viewer mode. If the checkbox is checked the main menu will show up when switching from viewer mode into full screen and allow you to edit the furnishing, architectural structure or the materials.
+
+4. Autostart
+
+    * If the **Autostart** checkbox is active then the Archilogic 3d model loads automatically if the link is opened. This applies for Editor mode but also for Viewer mode. If the checkbox is unchecked a visitor first has to click on a play button on the screen in order for the 3d model to load. Again this applies for the Editor mode, but also for the Viewer mode or if the model is embedded somewhere as an iframe.
+    Unchecking the Autostart checkbox can be a way to improve loading time of a website if there are for example several Archilogic iframes embedded on the same site.
+
 ## Google Shortlink
 
 ![Google Shortlink]({{site.baseurl}}/assets/images/Basic-Share-Google-Shortlink.jpg){: .img-responsive}
