@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 gem 'jekyll', '~>3.3.0'
 gem 'jekyll-sass-converter', '~>1.3.0'
 gem 'kramdown', '~>1.11.1'
