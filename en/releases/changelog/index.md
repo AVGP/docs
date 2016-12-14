@@ -1,12 +1,11 @@
 ---
 layout: doc
-linkName: Releases overview
+linkName: Releases
 
 title: "Archilogic - Releases"
 meta: "Archilogic documentation to help you stay up to date with the latest and greatest in Archilogic 3D editor and dashboard."
 
 middleRank: 1
-
 ---
 # Releases
 

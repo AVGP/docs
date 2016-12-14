@@ -2,5 +2,5 @@
 linkName: Releases
 
 topRank: 6
-linkTo: /en/releases/log/index.html
+linkTo: /en/releases/changelog/index.html
 ---
