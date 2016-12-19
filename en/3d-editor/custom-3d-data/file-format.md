@@ -10,8 +10,6 @@ localRank: 3
 
 # File Format
 
-**Importing custom 3d data is available with an [Archilogic Professional subscription]({{site.baseurl}}/en/platform/settings/subscription.html).**
-
 With an Archilogic Professional subscription you're able to import your own custom 3d content to Archilogic.
 At the moment the Wavefront **.obj** is the only supported file format for importing custom 3d models.
 Thanks to its simplicity .obj files can be exported from almost all third party 3d software.

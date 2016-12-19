@@ -11,7 +11,7 @@ localRank: 1
 
 # Custom 3d data
 
-**Exporting 3d content is available with an [Archilogic Plus subscription]({{site.baseurl}}/en/platform/settings/subscription.html).**
+**Exporting 3d content is available with an [Archilogic Plus or Professional subscription]({{site.baseurl}}/en/platform/settings/subscription.html).**
 
 This category describes how to export 3d content from Archilogic and what you have to keep in mind while doing it.
 

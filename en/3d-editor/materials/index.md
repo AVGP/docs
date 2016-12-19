@@ -11,8 +11,6 @@ localRank: 1
 
 # Materials
 
-**Materials are available with an [Archilogic Professional subscription]({{site.baseurl}}/en/platform/settings/subscription.html).**
-
 Next to lighting the materials probably play the second most important role when it comes to graphical quality. Materials are what makes a plain 3d objects comprehensible. They also give them a sense of scale while at the same time making them look a lot more interesting. Furthermore materials can give an object more small details without the need to create sophisticated 3d models that have a lot of polygons.
 
 ![Different Materials]({{site.baseurl}}/assets/images/Materials-Preview.jpg){: .img-responsive}

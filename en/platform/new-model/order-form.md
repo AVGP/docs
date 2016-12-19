@@ -17,14 +17,14 @@ The way to your own 3d model is really easy. All you need is a 3d floor plan of 
 
 ## Order Form
 
-The first thing you have to decide is whether the model you want to order is an apartment or an office. If it's an apartment, choose **Residential** and if it's an office **Commercial**.
+The first and most important thing you have to do is to upload a floor plan. You can either drag and drop the image file or pdf of the floor plan onto the box or simply click into the box to open a context menu to select the image or pdf file manually.
+![Add Floor Plan]({{site.baseurl}}/assets/images/Platform-NewModel-Order-FloorPlan.jpg){: .img-responsive}<br><br>
+
+The second thing you have to decide is whether the model you want to order is an apartment or an office. If it's an apartment, choose **Residential** and if it's an office **Commercial**.
 ![Model Type]({{site.baseurl}}/assets/images/Platform-NewModel-Order-Type.jpg){: .img-responsive}<br><br>
 
-The second step is to determine how big the model is. You can usually find this information on the floor plan. Here you can also switch between **metric** and the **imperial** unit system. The price is going to change depending on the size and type of the model.
+The third step is to determine how big the model is. You can usually find this information on the floor plan. Here you can also switch between **metric** and the **imperial** unit system. The price is going to change depending on the size and type of the model.
 ![Model Pricing]({{site.baseurl}}/assets/images/Platform-NewModel-Order-Pricing.jpg){: .img-responsive}<br><br>
-
-The third step is the most important one. You can either drag and drop the image file or pdf of the floor plan onto the dotted box or simply click into the box to open a context menu to select the image or pdf file manually.
-![Add Floor Plan]({{site.baseurl}}/assets/images/Platform-NewModel-Order-FloorPlan.jpg){: .img-responsive}<br><br>
 
 You can then add additional information to the model. It is mandatory to give the model a name so that we and you are able to recognize it. If you want to use the map functionality of Archilogic you can also add the address of the model. Furthermore you can tell us on which floor the model lies and what the room height is. If you don't give us a value for the room height we will use the standard value of 2.4 meters.
 ![Add Additional Information]({{site.baseurl}}/assets/images/Platform-NewModel-Order-AdditionalInfo.jpg){: .img-responsive}<br><br>
