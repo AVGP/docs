@@ -17,8 +17,10 @@ Importing custom 3d content to Archilogic requires an Archilogic Professional su
 
 Click on one of the following links to see a tutorial video about a certain aspect of Archilogic.
 
+* [Import furniture 3D Model](import-furniture.html)
+
+* [Import from SketchUp](import-from-sketchup.html)
+
 * [Import from Blender](import-from-blender.html)
 
 * [Import from 3ds Max](import-from-3dsmax.html)
-
-* [Import from SketchUp](import-from-sketchup.html)

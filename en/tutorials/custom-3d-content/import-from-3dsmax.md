@@ -5,7 +5,7 @@ linkName: Import from 3ds Max
 title: "How to import from 3DSMAX - Archilogic Documentation"
 meta: "Learn how to export your 3D interactive models from 3DSMAX before importing them into the Archilogic 3D editor."
 
-localRank: 4
+localRank: 5
 ---
 
 # Import your custom 3d model from 3ds Max

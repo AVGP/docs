@@ -5,7 +5,7 @@ linkName: Import from SketchUp
 title: "How to import from Sketchup - Archilogic Documentation"
 meta: "Learn how to export your 3D interactive models from Sketchup before importing them into the Archilogic 3D editor."
 
-localRank: 4
+localRank: 3
 ---
 
 # Import your custom 3d model from SketchUp
