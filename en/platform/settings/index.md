@@ -17,10 +17,16 @@ To open the profile settings menu click on the user icon in the top right corner
 
 With the profile settings menu open you have access to the following menus:
 
+* Click on **Dashboard** to jump back to the overview of your 3d models.
+
 * Click on **Users** to open the [user menu](users.html) and add additional users to your organization.
 
 * Click on **Subscription** to open the [subscription menu](subscription.html). In the subscription menu you can change your subscription from community to Plus or Professional or to start a trial.
 
 * Click on **Settings** to open the [settings menu](settings.html). In the settings menu you can change your billing information and add a logo for your organization that will be displayed with your models.
+
+* Click on **Explore** to take a look at some 3d models selected by Archilogic.
+
+* Click on **Blog** to read the latest news about Archilogic.
 
 * By clicking on **Logout** you get logged out of your Archilogic account.

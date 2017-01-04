@@ -22,12 +22,14 @@ It allows you to create folders, add coworkers to your organization see at first
 
 2. By clicking on the [folder]({{site.baseurl}}/en/platform/folders/index.html) icon you can add a new folder or switch to an already existing one. <br> **This feature is available with an Archilogic Plus or Professional subscription.**<br><br>
 
-3. Click here to [buy a new Archilogic model]({{site.baseurl}}/en/platform/new-model/index.html).<br><br>
+3. Click here to [buy a new Archilogic model]({{site.baseurl}}/en/platform/new-model/index.html) or to create a new one on your own.<br><br>
 
 4. Change your organization details or your subscription by clicking on the profile [profile settings]({{site.baseurl}}/en/platform/settings/index.html).<br><br>
 
 5. With the search function you can search for a specific 3d model in your dashboard.<br><br>
 
-6. Here you can switch between different [display modes]({{site.baseurl}}/en/platform/dashboard/index.html) for the dashboard.<br><br>
+6. Here you can filter between different [display modes]({{site.baseurl}}/en/platform/dashboard/index.html) for the dashboard.<br><br>
 
 7. Clicking one of the model thumbnails opens the Archilogic [3d editor]({{site.baseurl}}/en/3d-editor/introduction/index.html).
+
+8. Clicking on the hamburger menu icon opens up the model specific menu which lets you change the name, the address and the privacy settings of this particular model.
