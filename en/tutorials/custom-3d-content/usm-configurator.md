@@ -12,6 +12,6 @@ localRank: 6
 
 This tutorial video shows you how to use the USM Haller System Configurator in order to create custom USM Haller sideboards.
 
-Click here to open the USM Haller System Configurator: [USM Haller System configurator](http://project.archilogic.com/usm-config/)
+Click here to open the USM Haller System Configurator: [http://project.archilogic.com/usm-config/](http://project.archilogic.com/usm-config/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AoYAhMESmxo" frameborder="0" allowfullscreen></iframe>
