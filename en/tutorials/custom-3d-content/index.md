@@ -24,3 +24,5 @@ Click on one of the following links to see a tutorial video about a certain aspe
 * [Import from Blender](import-from-blender.html)
 
 * [Import from 3ds Max](import-from-3dsmax.html)
+
+* [USM Haller System configurator](usm-configurator.html)
