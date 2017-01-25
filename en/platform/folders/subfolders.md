@@ -1,6 +1,6 @@
 ---
 layout: doc
-linkName: Subolders
+linkName: Subfolders
 
 title: "Create Archilogic Subfolders - Archilogic Doc"
 meta: "Find out how to use the Archilogic folder feature available in the dashboard. It will help you keep your 3D models organized."

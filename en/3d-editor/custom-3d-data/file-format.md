@@ -20,6 +20,8 @@ A .obj export usually consists of 3 parts:
 * The **.mtl** file that stores all the material information
 * The texture maps
 
+We recommend to only import triangulated meshes (meshes consisting of triangles and not nGons) as meshes with nGons may be displayed with incorrect face normals.
+
 Should the 3d object come with texture maps then you have to make sure that the links within the .mtl file are pointing towards the correct location.
 If the links in the .mtl file are not pointing to the correct location the texture maps will not be associated with the materials, even if they're uploaded together.
 In this case you can either use a text editor to open the .mtl file and adjust the links or associate the texture maps separately wit the respective material in the material menu.
