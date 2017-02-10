@@ -4,7 +4,7 @@ linkName: February 2017
 
 title: "Release notes for February 2017"
 
-middleRank: 2
+middleRank: 1
 ---
 # Release notes for February
 
