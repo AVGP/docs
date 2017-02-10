@@ -4,7 +4,7 @@ linkName: December 2016
 
 title: "Release notes for December 2016"
 
-middleRank: 2
+middleRank: 3
 ---
 # Release notes for December
 
