@@ -30,7 +30,7 @@ The advanced material menu gives you a lot more options to customize a material 
   * **Diffuse** maps contain the color and image information of a material.
   * **Specular** maps are used to influence the reflectivity of a material. Specular maps are monochrome. The brighter an area the stronger it reflects.
   * The **Normal** map is an advanced form of the better known *bump maps*. Normal maps are used to simulate dents, bumps or scratches in the model and behave correctly depending the light direction.
-  * The **Alpha** map is used as a mask to "cut" holes into materials. It is usually a black and white image. The areas of the material covored by the white texture surface is fully visible while the areas covered with black become invisible.
+  * The **Alpha** map is used as a mask to "cut" holes into materials. It is usually a black and white image. The areas of the material covered by the white texture surface is fully visible while the areas covered with black become invisible. Alpha maps are now incorporated into the light map creation process which means that the transparent parts of a light map will now allow light to pass through while the non transparent parts will drop shadows.
 
 
 * With the **Texture Size** widget you can determine with what size the material is applied to the 3d object.
