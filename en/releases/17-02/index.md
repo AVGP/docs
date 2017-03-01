@@ -8,7 +8,8 @@ middleRank: 1
 ---
 # Release notes for February
 
-## 22.08.17
+
+## 22.02.17
 
 ### Fixes
 
